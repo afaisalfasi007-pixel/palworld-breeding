@@ -58,8 +58,9 @@ try {
 
   // finder with owned filter
   await page.goto(base + '/find/?t=daedream');
-  await page.waitForSelector('#find-result table');
-  await page.check('#only-owned');
+  await page.waitForSelector('#find-result .pairs');
+  await page.click('label.switch');
+  check(await page.isChecked('#only-owned'), 'finder: owned switch toggles');
   check((await page.textContent('#find-result')).includes('Lamball'), 'finder: owned filter keeps Lamball + Cattiva');
   await page.screenshot({ path: `${shots}/3-finder.png` });
 
@@ -77,7 +78,7 @@ try {
   await page.goto(base + '/pals/');
   await page.fill('#dir-search', 'anub');
   check((await page.textContent('#dir-count')) === '1 Pal', 'directory search');
-  await page.selectOption('#dir-work', 'Mining');
+  await page.click('.chip-btn[data-work="Mining"]');
   await page.fill('#dir-search', '');
   check(Number((await page.textContent('#dir-count')).split(' ')[0]) > 10, 'directory work filter');
   await page.goto(base + '/pals/anubis/');
@@ -90,6 +91,15 @@ try {
     const overflow = await page.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
     check(overflow <= 0, `no sideways scroll on ${path}`);
   }
+  // dark mode renders too
+  await page.emulateMedia({ colorScheme: 'dark' });
+  await page.goto(base + '/?a=katress&b=wixen');
+  await page.waitForSelector('.child-card');
+  await page.screenshot({ path: `${shots}/6-dark-calculator.png` });
+  await page.goto(base + '/pals/anubis/');
+  await page.screenshot({ path: `${shots}/7-dark-pal-page.png` });
+  await page.emulateMedia({ colorScheme: 'light' });
+
   check(errors.length === 0, `no console errors${errors.length ? ': ' + errors.join('; ') : ''}`);
 } finally {
   await browser.close();

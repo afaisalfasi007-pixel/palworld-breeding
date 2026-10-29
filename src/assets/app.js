@@ -39,6 +39,20 @@ function avatar(p, size = '') {
 }
 const palUrl = (p) => `/pals/${p.slug}/`;
 const palLink = (p) => `<a class="pal" href="${palUrl(p)}">${avatar(p)}<span>${esc(p.name)}</span></a>`;
+const icon = (name) => `<svg class="i" aria-hidden="true" focusable="false"><use href="#i-${name}"/></svg>`;
+const sexTag = (g) => (g ? `<span class="sex sex-${g}">${GENDER[g]}</span>` : '');
+const emptyState = (ic, text) => `<div class="empty"><svg class="i i-lg" aria-hidden="true"><use href="#i-${ic}"/></svg><p>${text}</p></div>`;
+const pairItem = (left, op, right) => `<li class="pair"><span class="side">${left}</span><span class="op">${icon(op)}</span><span class="side">${right}</span></li>`;
+
+let toastTimer;
+function toast(msg) {
+  const el = document.getElementById('toast');
+  if (!el) return;
+  el.textContent = msg;
+  el.classList.add('show');
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => el.classList.remove('show'), 2600);
+}
 
 // ---------- searchable Pal picker ----------
 
@@ -50,10 +64,12 @@ function makePicker(el, pals, onChange) {
   el.innerHTML = `<label for="${id}">${esc(el.dataset.label)}</label>
 <input id="${id}" type="text" role="combobox" aria-expanded="false" aria-controls="${id}-list" aria-autocomplete="list" autocomplete="off" spellcheck="false" placeholder="Search Pal name or #">
 <span class="chosen"></span>
+<button type="button" class="clear" aria-label="Clear ${esc(el.dataset.label)}">${icon('x')}</button>
 <ul id="${id}-list" role="listbox" hidden></ul>`;
   const input = el.querySelector('input');
   const list = el.querySelector('ul');
   const chosen = el.querySelector('.chosen');
+  el.querySelector('.clear').addEventListener('click', () => { set(null); input.focus(); });
   let value = null;
   let matches = [];
   let active = -1;
@@ -73,7 +89,7 @@ function makePicker(el, pals, onChange) {
   function render() {
     list.innerHTML = matches.length
       ? matches.map((i, k) => `<li role="option" id="${id}-o${k}" data-i="${i}" aria-selected="${k === active}">${avatar(pals[i])}<span>${esc(pals[i].name)}</span><small>${esc(pals[i].dex)}</small></li>`).join('')
-      : '<li class="empty" role="option" aria-disabled="true">No Pal found</li>';
+      : '<li class="empty-opt" role="option" aria-disabled="true">No Pal found. Try another spelling.</li>';
     input.setAttribute('aria-activedescendant', active >= 0 ? `${id}-o${active}` : '');
     const a = list.querySelector('[aria-selected="true"]');
     if (a) a.scrollIntoView({ block: 'nearest' });
@@ -153,17 +169,17 @@ function initCalc(data) {
   function render() {
     setParams({ a: a != null ? pals[a].slug : null, b: b != null ? pals[b].slug : null });
     if (a == null || b == null) {
-      out.innerHTML = '<p class="muted">Choose two Pals to see their child.</p>';
+      out.innerHTML = emptyState('egg', a == null && b == null ? 'Choose two Pals to see their egg.' : 'Now choose the other parent.');
       return;
     }
     const r = childOf(data, a, b);
-    const card = (c, note = '') => `<a class="child-card" href="${palUrl(pals[c])}">${avatar(pals[c], 'xl')}<span><small>${note || 'Child'}</small><b>${esc(pals[c].name)}</b><small>${esc(pals[c].dex)} · breeding power ${pals[c].power}</small></span><span class="go">Details →</span></a>`;
-    const head = `<p class="eq">${esc(pals[a].name)} + ${esc(pals[b].name)}</p>`;
+    const card = (c, label) => `<a class="child-card" href="${palUrl(pals[c])}">${avatar(pals[c], 'xl')}<span><span class="lbl">${label}</span><b>${esc(pals[c].name)}</b><small>${esc(pals[c].dex)} · breeding power ${pals[c].power}</small></span><span class="go" aria-label="Open ${esc(pals[c].name)}">${icon('arrow')}</span></a>`;
+    const head = `<p class="eq">${esc(pals[a].name)} ${icon('plus')} ${esc(pals[b].name)}</p>`;
     if (r.child != null) {
-      out.innerHTML = head + card(r.child, a === b ? 'Same species: child' : 'Child');
+      out.innerHTML = head + card(r.child, a === b ? 'Same species hatches' : 'Hatches');
     } else {
-      out.innerHTML = head + '<p>The result depends on which parent is male:</p><div class="gender-list">' +
-        r.byGender.map((o) => card(o.child, `${esc(pals[o.a].name)} ${GENDER[o.ga]} + ${esc(pals[o.b].name)} ${GENDER[o.gb]}`)).join('') + '</div>';
+      out.innerHTML = head + '<p class="note">' + icon('info') + '<span>Gender matters for this pair. The egg depends on which parent is male:</span></p><div class="gender-list">' +
+        r.byGender.map((o) => card(o.child, `${GENDER[o.ga]} ${esc(pals[o.a].name)} + ${GENDER[o.gb]} ${esc(pals[o.b].name)}`)).join('') + '</div>';
     }
   }
 
@@ -193,7 +209,7 @@ function initFind(data) {
   function render() {
     setParams({ t: target != null ? pals[target].slug : null });
     if (target == null) {
-      out.innerHTML = '<p class="muted">Choose a Pal to list its parents.</p>';
+      out.innerHTML = emptyState('search', 'Choose a Pal to list its parents.');
       return;
     }
     const owned = loadOwned();
@@ -203,13 +219,14 @@ function initFind(data) {
     if (onlyOwned.checked) pairs = pairs.filter((o) => owned.has(pals[o.a].slug) && owned.has(pals[o.b].slug));
     if (q) pairs = pairs.filter((o) => pals[o.a].name.toLowerCase().includes(q) || pals[o.b].name.toLowerCase().includes(q));
     const t = pals[target];
-    let msg = `<p><b>${total.toLocaleString('en-US')}</b> pair${total === 1 ? '' : 's'} of different Pals hatch ${palLink(t)}. Two ${esc(t.name)} also work.</p>`;
-    if (total === 0) msg = `<p>${palLink(t)} only hatches from two ${esc(t.name)} (one male, one female). Catch them in the wild first.</p>`;
-    if (onlyOwned.checked && owned.size === 0) msg += '<p class="note">You haven\'t marked any Pals yet. Add them on <a href="/my-pals/">My Pals</a>.</p>';
+    let msg = `<div class="result-head"><span class="count-badge">${total.toLocaleString('en-US')}</span><span>${total === 1 ? 'pair hatches' : 'pairs hatch'}</span>${palLink(t)}</div>`;
+    if (total === 0) msg = emptyState('egg', `${esc(t.name)} only hatches from two ${esc(t.name)} (one male, one female). Catch them in the wild first.`);
+    if (onlyOwned.checked && owned.size === 0) msg += `<p class="note">${icon('info')}<span>You haven't marked any Pals yet. Add them on <a href="/my-pals/">My Pals</a>.</span></p>`;
     else if ((onlyOwned.checked || q) && total) msg += `<p class="muted">${pairs.length.toLocaleString('en-US')} match your filters.</p>`;
-    const rows = pairs.slice(0, shown).map((o) => `<tr><td>${palLink(pals[o.a])}${o.ga ? ` <small>(${GENDER[o.ga]})</small>` : ''}</td><td>${palLink(pals[o.b])}${o.gb ? ` <small>(${GENDER[o.gb]})</small>` : ''}</td></tr>`).join('');
-    out.innerHTML = msg + (pairs.length ? `<div class="table-wrap"><table><thead><tr><th scope="col">Parent 1</th><th scope="col">Parent 2</th></tr></thead><tbody>${rows}</tbody></table></div>` : '') +
-      (pairs.length > shown ? `<p><button type="button" class="btn ghost" id="more">Show more (${(pairs.length - shown).toLocaleString('en-US')} left)</button></p>` : '');
+    if ((onlyOwned.checked || q) && total && !pairs.length) msg += emptyState('route', `No pair matches. Try the <a href="/planner/?t=${t.slug}">route planner</a> instead.`);
+    const items = pairs.slice(0, shown).map((o) => pairItem(`${palLink(pals[o.a])}${sexTag(o.ga)}`, 'plus', `${palLink(pals[o.b])}${sexTag(o.gb)}`)).join('');
+    out.innerHTML = msg + (pairs.length ? `<ul class="pairs">${items}</ul>` : '') +
+      (pairs.length > shown ? `<p class="btn-row"><button type="button" class="btn ghost" id="more">Show more (${(pairs.length - shown).toLocaleString('en-US')} left)</button></p>` : '');
     const more = document.getElementById('more');
     if (more) more.addEventListener('click', () => { shown += 100; render(); });
   }
@@ -233,29 +250,29 @@ function initPlanner(data) {
     const owned = loadOwned();
     const ownedIdx = pals.map((p, i) => (owned.has(p.slug) ? i : -1)).filter((i) => i >= 0);
     summary.innerHTML = ownedIdx.length
-      ? `Planning from <b>${ownedIdx.length}</b> Pals you own. <a href="/my-pals/">Edit My Pals</a>`
-      : 'You haven\'t marked any Pals yet. <a href="/my-pals/">Add the Pals you own</a> first.';
+      ? `${icon('check')}<span>Planning from <b>${ownedIdx.length}</b> Pals you own.</span> <a href="/my-pals/">Edit My Pals</a>`
+      : `${icon('info')}<span>You haven't marked any Pals yet.</span> <a href="/my-pals/">Add the Pals you own</a>`;
     if (target == null) {
-      out.innerHTML = '<p class="muted">Choose a target Pal.</p>';
+      out.innerHTML = emptyState('route', 'Choose a target Pal.');
       return;
     }
     if (!ownedIdx.length) {
-      out.innerHTML = '';
+      out.innerHTML = emptyState('check', 'Tick the Pals you own on <a href="/my-pals/">My Pals</a>, then come back.');
       return;
     }
     const t = pals[target];
     const plan = planRoute(data, ownedIdx, target);
     if (!plan) {
-      out.innerHTML = `<p>${palLink(t)} can't be bred from the Pals you own.</p><p class="muted">It may only hatch from two of itself, or need a Pal you don't have yet. See <a href="${palUrl(t)}">all of its parent pairs</a>.</p>`;
+      out.innerHTML = emptyState('route', `${esc(t.name)} can't be bred from the Pals you own. It may only hatch from two of itself, or need a Pal you don't have yet. See <a href="${palUrl(t)}">all of its parent pairs</a>.`);
       return;
     }
     if (plan.owned) {
-      out.innerHTML = `<p>You already own ${palLink(t)}. Breed a male and a female ${esc(t.name)} for more.</p>`;
+      out.innerHTML = emptyState('check', `You already own ${esc(t.name)}. Breed a male and a female for more.`);
       return;
     }
     const n = plan.steps.length;
-    out.innerHTML = `<p><b>${n} breeding step${n === 1 ? '' : 's'}</b> to ${palLink(t)}:</p><ol class="steps">` +
-      plan.steps.map((s) => `<li><div><div class="line">${palLink(pals[s.a])}${s.ga ? ` <small>(${GENDER[s.ga]})</small>` : ''}<span class="op">+</span>${palLink(pals[s.b])}${s.gb ? ` <small>(${GENDER[s.gb]})</small>` : ''}<span class="op">→</span>${palLink(pals[s.child])}</div>` +
+    out.innerHTML = `<div class="result-head"><span class="count-badge">${n}</span><span>breeding step${n === 1 ? '' : 's'} to</span>${palLink(t)}</div><ol class="steps">` +
+      plan.steps.map((s) => `<li><div class="step-card">${palLink(pals[s.a])}${sexTag(s.ga)}<span class="op">${icon('plus')}</span>${palLink(pals[s.b])}${sexTag(s.gb)}<span class="op">${icon('arrow')}</span>${palLink(pals[s.child])}` +
         `${s.ga ? '<small>Gender matters for this pair.</small>' : ''}</div></li>`).join('') + '</ol>' +
       '<p class="muted small">Each step needs one male and one female parent. Pals bred in earlier steps can be reused.</p>';
   }
@@ -274,10 +291,14 @@ function initMyPals() {
   const total = boxes.length;
   const owned = loadOwned();
 
-  const update = () => { count.textContent = `${owned.size} of ${total} owned`; };
+  const bar = document.getElementById('my-bar');
+  const update = () => {
+    count.textContent = `${owned.size} of ${total} owned`;
+    bar.style.width = `${(owned.size / total) * 100}%`;
+  };
   const persist = () => {
-    if (!saveOwned(owned)) count.textContent = 'Your browser blocked saving. Your ticks will be lost when you leave.';
-    else update();
+    update();
+    if (!saveOwned(owned)) toast('Your browser blocked saving. Ticks will be lost when you leave.');
   };
   for (const b of boxes) {
     b.disabled = false;
@@ -295,6 +316,7 @@ function initMyPals() {
     a.download = 'my-pals.json';
     a.click();
     setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    toast(`Backup saved with ${owned.size} Pals`);
   });
   document.getElementById('my-import').addEventListener('change', async (e) => {
     const file = e.target.files[0];
@@ -307,8 +329,9 @@ function initMyPals() {
       slugs.forEach((s) => owned.add(s));
       boxes.forEach((b) => { b.checked = owned.has(b.value); });
       persist();
+      toast(`Imported ${owned.size} Pals`);
     } catch {
-      count.textContent = 'That file is not a My Pals backup.';
+      toast('That file is not a My Pals backup.');
     }
     e.target.value = '';
   });
@@ -317,6 +340,7 @@ function initMyPals() {
     owned.clear();
     boxes.forEach((b) => { b.checked = false; });
     persist();
+    toast('All Pals unticked');
   });
 }
 
@@ -336,15 +360,21 @@ function filterList(list, q, extra = () => true) {
 function initDirectory() {
   const list = document.getElementById('dir-list');
   const search = document.getElementById('dir-search');
-  const work = document.getElementById('dir-work');
+  const chips = [...document.querySelectorAll('.chip-btn')];
   const count = document.getElementById('dir-count');
+  let w = '';
   const run = () => {
-    const w = work.value;
     const n = filterList(list, search.value, (li) => !w || li.dataset.work.split('|').includes(w));
     count.textContent = `${n} Pal${n === 1 ? '' : 's'}`;
   };
   search.addEventListener('input', run);
-  work.addEventListener('change', run);
+  for (const c of chips) {
+    c.addEventListener('click', () => {
+      w = c.dataset.work;
+      chips.forEach((x) => x.setAttribute('aria-pressed', String(x === c)));
+      run();
+    });
+  }
 }
 
 // ---------- start ----------
@@ -359,7 +389,10 @@ const needsData = { calc: initCalc, find: initFind, planner: initPlanner };
 if (needsData[page]) {
   loadData().then(needsData[page]).catch(() => {
     const tool = document.querySelector('.tool');
-    if (tool) tool.insertAdjacentHTML('beforeend', '<p class="note">The breeding data could not be loaded. Check your connection and reload the page.</p>');
+    if (tool) {
+      tool.querySelectorAll('.picker:empty').forEach((p) => p.remove());
+      tool.insertAdjacentHTML('beforeend', `<p class="note">${icon('info')}<span>The breeding data could not be loaded. Check your connection and reload the page.</span></p>`);
+    }
   });
 } else if (page === 'mypals') {
   initMyPals();
