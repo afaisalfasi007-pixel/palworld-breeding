@@ -1,0 +1,13 @@
+{
+ "source": "PalCalc by Tyler Camp",
+ "sourceUrl": "https://github.com/tylercamp/palcalc",
+ "sourceLicense": "MIT",
+ "sourceCommit": "66f18a000e2107640b219562437357ced5aff7eb",
+ "sourceCommitDate": "2026-10-16",
+ "sourceDbVersion": "v28",
+ "gameVersion": "Palworld 1.0 (game-file export; the source does not name the exact patch)",
+ "importedOn": "2026-10-29",
+ "palCount": 299,
+ "pairCount": 44850,
+ "genderedCombos": 2
+}

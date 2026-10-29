@@ -1,0 +1,15 @@
+{
+  "name": "palworld-breeding",
+  "private": true,
+  "type": "module",
+  "description": "Static Palworld breeding calculator, parent finder and route planner.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node src/build.mjs",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "check": "npm run build && npm test",
+    "serve": "node scripts/serve.mjs",
+    "smoke": "node scripts/smoke.mjs",
+    "import-data": "node scripts/import-palcalc.mjs"
+  }
+}

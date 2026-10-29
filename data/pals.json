@@ -1,0 +1,10888 @@
+[
+ {
+  "slug": "lamball",
+  "name": "Lamball",
+  "internal": "SheepBall",
+  "dex": 1,
+  "variant": false,
+  "collab": false,
+  "power": 3050,
+  "priority": 305000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   20
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 40,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cattiva",
+  "name": "Cattiva",
+  "internal": "PinkCat",
+  "dex": 2,
+  "variant": false,
+  "collab": false,
+  "power": 2760,
+  "priority": 276000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   20
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Mining": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "chikipi",
+  "name": "Chikipi",
+  "internal": "ChickenPal",
+  "dex": 3,
+  "variant": false,
+  "collab": false,
+  "power": 3080,
+  "priority": 308000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   25
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 60,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 50,
+   "run": 375,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "lifmunk",
+  "name": "Lifmunk",
+  "internal": "Carbunclo",
+  "dex": 4,
+  "variant": false,
+  "collab": false,
+  "power": 3020,
+  "priority": 302000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   14
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 40,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Medicine Production": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "fuack",
+  "name": "Fuack",
+  "internal": "BluePlatypus",
+  "dex": 5,
+  "variant": false,
+  "collab": false,
+  "power": 2980,
+  "priority": 298000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   6,
+   20
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 80,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 105,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "fuack-ignis",
+  "name": "Fuack Ignis",
+  "internal": "BluePlatypus_Fire",
+  "dex": 5,
+  "variant": true,
+  "collab": false,
+  "power": 2300,
+  "priority": 575,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   50
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 85,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 105,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Kindling": 2,
+   "Watering": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "vixy",
+  "name": "Vixy",
+  "internal": "CuteFox",
+  "dex": 6,
+  "variant": false,
+  "collab": false,
+  "power": 3060,
+  "priority": 306000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   25
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 350,
+   "rideSprint": 450
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "celaray",
+  "name": "Celaray",
+  "internal": "FlyingManta",
+  "dex": 7,
+  "variant": false,
+  "collab": false,
+  "power": 2740,
+  "priority": 274000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   2,
+   20
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "celaray-lux",
+  "name": "Celaray Lux",
+  "internal": "FlyingManta_Thunder",
+  "dex": 7,
+  "variant": true,
+  "collab": false,
+  "power": 2380,
+  "priority": 574,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   26,
+   55
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Generating Electricity": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cremis",
+  "name": "Cremis",
+  "internal": "WoolFox",
+  "dex": 8,
+  "variant": false,
+  "collab": false,
+  "power": 2890,
+  "priority": 289000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   13
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 40,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "croajiro",
+  "name": "Croajiro",
+  "internal": "KendoFrog",
+  "dex": 9,
+  "variant": false,
+  "collab": false,
+  "power": 2600,
+  "priority": 260000,
+  "rarity": 4,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   4,
+   65
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 100,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 66,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "croajiro-noct",
+  "name": "Croajiro Noct",
+  "internal": "KendoFrog_Dark",
+  "dex": 9,
+  "variant": true,
+  "collab": false,
+  "power": 1860,
+  "priority": 186000,
+  "rarity": 5,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   61,
+   80
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 110,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 66,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "herbil",
+  "name": "Herbil",
+  "internal": "LeafMomonga",
+  "dex": 10,
+  "variant": false,
+  "collab": false,
+  "power": 2630,
+  "priority": 263000,
+  "rarity": 3,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   50
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 30,
+   "run": 350,
+   "rideSprint": 600
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "teafant",
+  "name": "Teafant",
+  "internal": "Ganesha",
+  "dex": 11,
+  "variant": false,
+  "collab": false,
+  "power": 3070,
+  "priority": 307000,
+  "rarity": 1,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   2,
+   25
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 60,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Watering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gumoss",
+  "name": "Gumoss",
+  "internal": "PlantSlime",
+  "dex": 12,
+  "variant": false,
+  "collab": false,
+  "power": 2950,
+  "priority": 295000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   2,
+   13
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gumoss-flower",
+  "name": "Gumoss (Flower)",
+  "internal": "PlantSlime_Flower",
+  "dex": 12,
+  "variant": true,
+  "collab": false,
+  "power": 2950,
+  "priority": 295000,
+  "rarity": 10,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   2,
+   4
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pupperai",
+  "name": "Pupperai",
+  "internal": "SamuraiDog",
+  "dex": 13,
+  "variant": false,
+  "collab": false,
+  "power": 2930,
+  "priority": 293000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   2,
+   4
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 45,
+   "run": 400,
+   "rideSprint": 600
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "clovee",
+  "name": "Clovee",
+  "internal": "CloverFairy",
+  "dex": 14,
+  "variant": false,
+  "collab": false,
+  "power": 2970,
+  "priority": 297000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   3,
+   13
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 65,
+   "defense": 65
+  },
+  "speed": {
+   "walk": 150,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1,
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jolthog",
+  "name": "Jolthog",
+  "internal": "Hedgehog",
+  "dex": 15,
+  "variant": false,
+  "collab": false,
+  "power": 3030,
+  "priority": 303000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   4,
+   13
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Generating Electricity": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jolthog-cryst",
+  "name": "Jolthog Cryst",
+  "internal": "Hedgehog_Ice",
+  "dex": 15,
+  "variant": true,
+  "collab": false,
+  "power": 2850,
+  "priority": 285000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   24
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 60,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Cooling": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "depresso",
+  "name": "Depresso",
+  "internal": "NegativeKoala",
+  "dex": 16,
+  "variant": false,
+  "collab": false,
+  "power": 3000,
+  "priority": 300000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   4,
+   35
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 20,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Mining": 1,
+   "Transporting": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pengullet",
+  "name": "Pengullet",
+  "internal": "Penguin",
+  "dex": 17,
+  "variant": false,
+  "collab": false,
+  "power": 2960,
+  "priority": 296000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   45
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 500,
+   "rideSprint": 650
+  },
+  "food": 1,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 1,
+   "Cooling": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pengullet-lux",
+  "name": "Pengullet Lux",
+  "internal": "Penguin_Electric",
+  "dex": 17,
+  "variant": true,
+  "collab": false,
+  "power": 2490,
+  "priority": 572,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   50,
+   55
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 500,
+   "rideSprint": 650
+  },
+  "food": 1,
+  "work": {
+   "Watering": 1,
+   "Generating Electricity": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "penking",
+  "name": "Penking",
+  "internal": "CaptainPenguin",
+  "dex": 18,
+  "variant": false,
+  "collab": false,
+  "power": 2070,
+  "priority": 207000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   44
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 95,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 110,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 4,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Cooling": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "penking-lux",
+  "name": "Penking Lux",
+  "internal": "CaptainPenguin_Black",
+  "dex": 18,
+  "variant": true,
+  "collab": false,
+  "power": 1850,
+  "priority": 573,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 100,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 110,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 4,
+  "work": {
+   "Watering": 2,
+   "Generating Electricity": 3,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "hoocrates",
+  "name": "Hoocrates",
+  "internal": "WizardOwl",
+  "dex": 19,
+  "variant": false,
+  "collab": false,
+  "power": 2940,
+  "priority": 294000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   4,
+   22
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 70,
+   "run": 380,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "melpaca",
+  "name": "Melpaca",
+  "internal": "Alpaca",
+  "dex": 20,
+  "variant": false,
+  "collab": false,
+  "power": 2720,
+  "priority": 272000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   5,
+   17
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 75,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 62,
+   "run": 500,
+   "rideSprint": 900
+  },
+  "food": 2,
+  "work": {
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "kingpaca",
+  "name": "Kingpaca",
+  "internal": "KingAlpaca",
+  "dex": 21,
+  "variant": false,
+  "collab": false,
+  "power": 2220,
+  "priority": 222000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   23,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 80,
+   "run": 700,
+   "rideSprint": 1040
+  },
+  "food": 4,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.9,
+   "female": 0.100000024
+  }
+ },
+ {
+  "slug": "kingpaca-cryst",
+  "name": "Kingpaca Cryst",
+  "internal": "KingAlpaca_Ice",
+  "dex": 21,
+  "variant": true,
+  "collab": false,
+  "power": 1530,
+  "priority": 153000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   46,
+   46
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 80,
+   "run": 700,
+   "rideSprint": 1040
+  },
+  "food": 4,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.9,
+   "female": 0.100000024
+  }
+ },
+ {
+  "slug": "daedream",
+  "name": "Daedream",
+  "internal": "DreamDemon",
+  "dex": 22,
+  "variant": false,
+  "collab": false,
+  "power": 2910,
+  "priority": 291000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   4,
+   16
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 140,
+   "run": 300,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tanzee",
+  "name": "Tanzee",
+  "internal": "Monkey",
+  "dex": 23,
+  "variant": false,
+  "collab": false,
+  "power": 2900,
+  "priority": 290000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   4,
+   20
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 48,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Planting": 1,
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tanzee-ignis",
+  "name": "Tanzee Ignis",
+  "internal": "Monkey_Fire",
+  "dex": 23,
+  "variant": true,
+  "collab": false,
+  "power": 2830,
+  "priority": 283000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   10,
+   12
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 48,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Kindling": 1,
+   "Handiwork": 1,
+   "Lumbering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "nox",
+  "name": "Nox",
+  "internal": "NightFox",
+  "dex": 24,
+  "variant": false,
+  "collab": false,
+  "power": 2920,
+  "priority": 292000,
+  "rarity": 6,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   1,
+   25
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 300,
+   "rideSprint": 500
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "flambelle",
+  "name": "Flambelle",
+  "internal": "LavaGirl",
+  "dex": 25,
+  "variant": false,
+  "collab": false,
+  "power": 2700,
+  "priority": 270000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   50
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 98,
+   "run": 250,
+   "rideSprint": 375
+  },
+  "food": 2,
+  "work": {
+   "Kindling": 1,
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "rooby",
+  "name": "Rooby",
+  "internal": "FlameBambi",
+  "dex": 26,
+  "variant": false,
+  "collab": false,
+  "power": 2870,
+  "priority": 287000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   4,
+   30
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 70,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Kindling": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mau",
+  "name": "Mau",
+  "internal": "Bastet",
+  "dex": 27,
+  "variant": false,
+  "collab": false,
+  "power": 3040,
+  "priority": 304000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   5,
+   25
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 60,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 105,
+   "run": 475,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mau-cryst",
+  "name": "Mau Cryst",
+  "internal": "Bastet_Ice",
+  "dex": 27,
+  "variant": true,
+  "collab": false,
+  "power": 2750,
+  "priority": 275000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   45
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 65,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 105,
+   "run": 475,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Cooling": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "rushoar",
+  "name": "Rushoar",
+  "internal": "Boar",
+  "dex": 28,
+  "variant": false,
+  "collab": false,
+  "power": 2880,
+  "priority": 288000,
+  "rarity": 1,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   5,
+   25
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 150,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 1,
+  "work": {
+   "Mining": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "foxparks",
+  "name": "Foxparks",
+  "internal": "Kitsunebi",
+  "dex": 29,
+  "variant": false,
+  "collab": false,
+  "power": 2990,
+  "priority": 299000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   5,
+   18
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 80,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Kindling": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "foxparks-cryst",
+  "name": "Foxparks Cryst",
+  "internal": "Kitsunebi_Ice",
+  "dex": 29,
+  "variant": true,
+  "collab": false,
+  "power": 2500,
+  "priority": 250000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   58
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 80,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Cooling": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "killamari",
+  "name": "Killamari",
+  "internal": "NegativeOctopus",
+  "dex": 30,
+  "variant": false,
+  "collab": false,
+  "power": 2770,
+  "priority": 277000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   5,
+   62
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 60,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 120,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "killamari-primo",
+  "name": "Killamari Primo",
+  "internal": "NegativeOctopus_Neutral",
+  "dex": 30,
+  "variant": true,
+  "collab": false,
+  "power": 2540,
+  "priority": 571,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   24,
+   55
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 60,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 120,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Watering": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "fuddler",
+  "name": "Fuddler",
+  "internal": "CuteMole",
+  "dex": 31,
+  "variant": false,
+  "collab": false,
+  "power": 2790,
+  "priority": 279000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   40
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 80,
+   "defense": 50
+  },
+  "speed": {
+   "walk": 60,
+   "run": 300,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Handiwork": 1,
+   "Mining": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "eikthyrdeer",
+  "name": "Eikthyrdeer",
+  "internal": "Deer",
+  "dex": 32,
+  "variant": false,
+  "collab": false,
+  "power": 2710,
+  "priority": 271000,
+  "rarity": 5,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   6,
+   80
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 120,
+   "run": 700,
+   "rideSprint": 900
+  },
+  "food": 2,
+  "work": {
+   "Lumbering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "eikthyrdeer-terra",
+  "name": "Eikthyrdeer Terra",
+  "internal": "Deer_Ground",
+  "dex": 32,
+  "variant": true,
+  "collab": false,
+  "power": 2580,
+  "priority": 258000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   80
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 120,
+   "run": 700,
+   "rideSprint": 900
+  },
+  "food": 2,
+  "work": {
+   "Lumbering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "direhowl",
+  "name": "Direhowl",
+  "internal": "Garm",
+  "dex": 33,
+  "variant": false,
+  "collab": false,
+  "power": 2680,
+  "priority": 268000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   6,
+   14
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 90,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 180,
+   "run": 800,
+   "rideSprint": 1050
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "caprity",
+  "name": "Caprity",
+  "internal": "BerryGoat",
+  "dex": 34,
+  "variant": false,
+  "collab": false,
+  "power": 2610,
+  "priority": 261000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   6,
+   30
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 70,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 70,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Planting": 2,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "caprity-noct",
+  "name": "Caprity Noct",
+  "internal": "BerryGoat_Dark",
+  "dex": 34,
+  "variant": true,
+  "collab": false,
+  "power": 1940,
+  "priority": 194000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   23,
+   58
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 75,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 70,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Planting": 2,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "swee",
+  "name": "Swee",
+  "internal": "MopBaby",
+  "dex": 35,
+  "variant": false,
+  "collab": false,
+  "power": 2840,
+  "priority": 284000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   34
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 60,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 100,
+   "run": 250,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Gathering": 1,
+   "Cooling": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "sweepa",
+  "name": "Sweepa",
+  "internal": "MopKing",
+  "dex": 36,
+  "variant": false,
+  "collab": false,
+  "power": 2150,
+  "priority": 215000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   11,
+   40
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 90,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 120,
+   "run": 650,
+   "rideSprint": 1020
+  },
+  "food": 4,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "turtacle",
+  "name": "Turtacle",
+  "internal": "TentacleTurtle",
+  "dex": 37,
+  "variant": false,
+  "collab": false,
+  "power": 2410,
+  "priority": 241000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   5,
+   50
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 75,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 150,
+   "run": 320,
+   "rideSprint": 500
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Mining": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "turtacle-terra",
+  "name": "Turtacle Terra",
+  "internal": "TentacleTurtle_Ground",
+  "dex": 37,
+  "variant": true,
+  "collab": false,
+  "power": 1330,
+  "priority": 577,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   40,
+   65
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 85,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 150,
+   "run": 320,
+   "rideSprint": 500
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Mining": 3,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "hangyu",
+  "name": "Hangyu",
+  "internal": "WindChimes",
+  "dex": 38,
+  "variant": false,
+  "collab": false,
+  "power": 2780,
+  "priority": 278000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   9,
+   40
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "hangyu-cryst",
+  "name": "Hangyu Cryst",
+  "internal": "WindChimes_Ice",
+  "dex": 38,
+  "variant": true,
+  "collab": false,
+  "power": 2510,
+  "priority": 251000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   60
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Cooling": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "woolipop",
+  "name": "Woolipop",
+  "internal": "SweetsSheep",
+  "dex": 39,
+  "variant": false,
+  "collab": false,
+  "power": 2820,
+  "priority": 282000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   9,
+   19
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "woolipop-terra",
+  "name": "Woolipop Terra",
+  "internal": "SweetsSheep_Ground",
+  "dex": 39,
+  "variant": true,
+  "collab": false,
+  "power": 2030,
+  "priority": 203000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   60
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 100,
+   "run": 300,
+   "rideSprint": 400
+  },
+  "food": 1,
+  "work": {
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mozzarina",
+  "name": "Mozzarina",
+  "internal": "CowPal",
+  "dex": 40,
+  "variant": false,
+  "collab": false,
+  "power": 2800,
+  "priority": 280000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   9,
+   19
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 50,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 55,
+   "run": 580,
+   "rideSprint": 700
+  },
+  "food": 2,
+  "work": {
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.2,
+   "female": 0.8
+  }
+ },
+ {
+  "slug": "azurobe",
+  "name": "Azurobe",
+  "internal": "BlueDragon",
+  "dex": 41,
+  "variant": false,
+  "collab": false,
+  "power": 1830,
+  "priority": 183000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   35,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 5,
+  "work": {
+   "Watering": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "azurobe-cryst",
+  "name": "Azurobe Cryst",
+  "internal": "BlueDragon_Ice",
+  "dex": 41,
+  "variant": true,
+  "collab": false,
+  "power": 1220,
+  "priority": 578,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   50,
+   80
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 5,
+  "work": {
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "sparkit",
+  "name": "Sparkit",
+  "internal": "ElecCat",
+  "dex": 42,
+  "variant": false,
+  "collab": false,
+  "power": 3010,
+  "priority": 301000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   12
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 80,
+   "run": 350,
+   "rideSprint": 500
+  },
+  "food": 1,
+  "work": {
+   "Generating Electricity": 1,
+   "Handiwork": 1,
+   "Transporting": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "kelpsea",
+  "name": "Kelpsea",
+  "internal": "Kelpie",
+  "dex": 43,
+  "variant": false,
+  "collab": false,
+  "power": 2810,
+  "priority": 281000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   9,
+   20
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 700,
+   "rideSprint": 900
+  },
+  "food": 1,
+  "work": {
+   "Watering": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "kelpsea-ignis",
+  "name": "Kelpsea Ignis",
+  "internal": "Kelpie_Fire",
+  "dex": 43,
+  "variant": true,
+  "collab": false,
+  "power": 2470,
+  "priority": 247000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   38
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 700,
+   "rideSprint": 900
+  },
+  "food": 1,
+  "work": {
+   "Kindling": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ribbuny",
+  "name": "Ribbuny",
+  "internal": "PinkRabbit",
+  "dex": 44,
+  "variant": false,
+  "collab": false,
+  "power": 2860,
+  "priority": 286000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   35
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 65,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 245,
+   "rideSprint": 350
+  },
+  "food": 1,
+  "work": {
+   "Handiwork": 1,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ribbuny-botan",
+  "name": "Ribbuny Botan",
+  "internal": "PinkRabbit_Grass",
+  "dex": 44,
+  "variant": true,
+  "collab": false,
+  "power": 2460,
+  "priority": 246000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   18,
+   58
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 65,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 245,
+   "rideSprint": 350
+  },
+  "food": 1,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jelliette",
+  "name": "Jelliette",
+  "internal": "JellyfishFairy",
+  "dex": 45,
+  "variant": false,
+  "collab": false,
+  "power": 2650,
+  "priority": 265000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   6,
+   80
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 90,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 80,
+   "run": 240,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jellroy",
+  "name": "Jellroy",
+  "internal": "JellyfishGhost",
+  "dex": 46,
+  "variant": false,
+  "collab": false,
+  "power": 2590,
+  "priority": 259000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   14,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 75,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 200,
+   "run": 400,
+   "rideSprint": 600
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 1,
+   "Medicine Production": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "amione",
+  "name": "Amione",
+  "internal": "ClioneTwins",
+  "dex": 47,
+  "variant": false,
+  "collab": false,
+  "power": 2520,
+  "priority": 252000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   9,
+   65
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 70,
+   "defense": 65
+  },
+  "speed": {
+   "walk": 100,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 3,
+  "work": {
+   "Watering": 1,
+   "Handiwork": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "gloopie",
+  "name": "Gloopie",
+  "internal": "OctopusGirl",
+  "dex": 48,
+  "variant": false,
+  "collab": false,
+  "power": 2530,
+  "priority": 253000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   10,
+   80
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 85,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 120,
+   "run": 300,
+   "rideSprint": 500
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gloopie-primo",
+  "name": "Gloopie Primo",
+  "internal": "OctopusGirl_Neutral",
+  "dex": 48,
+  "variant": true,
+  "collab": false,
+  "power": 1630,
+  "priority": 163000,
+  "rarity": 6,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   66
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 120,
+   "run": 300,
+   "rideSprint": 500
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "galeclaw",
+  "name": "Galeclaw",
+  "internal": "Eagle",
+  "dex": 49,
+  "variant": false,
+  "collab": false,
+  "power": 2570,
+  "priority": 257000,
+  "rarity": 2,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   11,
+   29
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 200,
+   "run": 600,
+   "rideSprint": 700
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wispaw",
+  "name": "Wispaw",
+  "internal": "GhostBlackCat",
+  "dex": 50,
+  "variant": false,
+  "collab": false,
+  "power": 2250,
+  "priority": 225000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   11,
+   73
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 95,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 120,
+   "run": 360,
+   "rideSprint": 540
+  },
+  "food": 2,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 1,
+   "Medicine Production": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "nitewing",
+  "name": "Nitewing",
+  "internal": "HawkBird",
+  "dex": 51,
+  "variant": false,
+  "collab": false,
+  "power": 2560,
+  "priority": 256000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   12,
+   40
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 95,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tombat",
+  "name": "Tombat",
+  "internal": "CatBat",
+  "dex": 52,
+  "variant": false,
+  "collab": false,
+  "power": 2340,
+  "priority": 234000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   10,
+   45
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 95,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 140,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 2,
+   "Mining": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tocotoco",
+  "name": "Tocotoco",
+  "internal": "ColorfulBird",
+  "dex": 53,
+  "variant": false,
+  "collab": false,
+  "power": 2730,
+  "priority": 273000,
+  "rarity": 1,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   47
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 60,
+   "run": 300,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "univolt",
+  "name": "Univolt",
+  "internal": "Kirin",
+  "dex": 54,
+  "variant": false,
+  "collab": false,
+  "power": 2270,
+  "priority": 227000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   14,
+   80
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 720,
+   "rideSprint": 1100
+  },
+  "food": 3,
+  "work": {
+   "Generating Electricity": 3,
+   "Lumbering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "univolt-cryst",
+  "name": "Univolt Cryst",
+  "internal": "Kirin_Ice",
+  "dex": 54,
+  "variant": true,
+  "collab": false,
+  "power": 540,
+  "priority": 54000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 105,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 130,
+   "run": 720,
+   "rideSprint": 1100
+  },
+  "food": 3,
+  "work": {
+   "Lumbering": 3,
+   "Cooling": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gobfin",
+  "name": "Gobfin",
+  "internal": "SharkKid",
+  "dex": 55,
+  "variant": false,
+  "collab": false,
+  "power": 2550,
+  "priority": 255000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   14,
+   34
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 80,
+   "run": 400,
+   "rideSprint": 500
+  },
+  "food": 2,
+  "work": {
+   "Watering": 2,
+   "Handiwork": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gobfin-ignis",
+  "name": "Gobfin Ignis",
+  "internal": "SharkKid_Fire",
+  "dex": 55,
+  "variant": true,
+  "collab": false,
+  "power": 2430,
+  "priority": 243000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   50
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 80,
+   "run": 400,
+   "rideSprint": 500
+  },
+  "food": 2,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "loupmoon",
+  "name": "Loupmoon",
+  "internal": "Werewolf",
+  "dex": 56,
+  "variant": false,
+  "collab": false,
+  "power": 2110,
+  "priority": 211000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   14,
+   38
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 100,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 175,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "loupmoon-cryst",
+  "name": "Loupmoon Cryst",
+  "internal": "Werewolf_Ice",
+  "dex": 56,
+  "variant": true,
+  "collab": false,
+  "power": 1290,
+  "priority": 129000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   66
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 175,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 4,
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cawgnito",
+  "name": "Cawgnito",
+  "internal": "DarkCrow",
+  "dex": 57,
+  "variant": false,
+  "collab": false,
+  "power": 2370,
+  "priority": 237000,
+  "rarity": 3,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   14,
+   57
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 95,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 170,
+   "run": 920,
+   "rideSprint": 1200
+  },
+  "food": 3,
+  "work": {
+   "Lumbering": 2,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "arsox",
+  "name": "Arsox",
+  "internal": "FlameBuffalo",
+  "dex": 58,
+  "variant": false,
+  "collab": false,
+  "power": 2320,
+  "priority": 232000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   34
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 95,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 87,
+   "run": 700,
+   "rideSprint": 1050
+  },
+  "food": 3,
+  "work": {
+   "Kindling": 3,
+   "Lumbering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "muffly",
+  "name": "Muffly",
+  "internal": "FluffyBird",
+  "dex": 59,
+  "variant": false,
+  "collab": false,
+  "power": 2480,
+  "priority": 248000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   65
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 80,
+   "defense": 55
+  },
+  "speed": {
+   "walk": 110,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Cooling": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "bristla",
+  "name": "Bristla",
+  "internal": "LittleBriarRose",
+  "dex": 60,
+  "variant": false,
+  "collab": false,
+  "power": 2690,
+  "priority": 269000,
+  "rarity": 1,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   29
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Medicine Production": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cinnamoth",
+  "name": "Cinnamoth",
+  "internal": "CuteButterfly",
+  "dex": 61,
+  "variant": false,
+  "collab": false,
+  "power": 2620,
+  "priority": 262000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   16,
+   29
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 2,
+  "work": {
+   "Planting": 2,
+   "Gathering": 2,
+   "Medicine Production": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "puffolt",
+  "name": "Puffolt",
+  "internal": "ElecPomeranian",
+  "dex": 62,
+  "variant": false,
+  "collab": false,
+  "power": 2360,
+  "priority": 236000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   18,
+   69
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 70,
+   "run": 200,
+   "rideSprint": 400
+  },
+  "food": 3,
+  "work": {
+   "Generating Electricity": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "elphidran",
+  "name": "Elphidran",
+  "internal": "FairyDragon",
+  "dex": 63,
+  "variant": false,
+  "collab": false,
+  "power": 2280,
+  "priority": 228000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 80,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 83,
+   "run": 630,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "elphidran-aqua",
+  "name": "Elphidran Aqua",
+  "internal": "FairyDragon_Water",
+  "dex": 63,
+  "variant": true,
+  "collab": false,
+  "power": 1640,
+  "priority": 164000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   33,
+   80
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 80,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 83,
+   "run": 630,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Watering": 4,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "vanwyrm",
+  "name": "Vanwyrm",
+  "internal": "BirdDragon",
+  "dex": 64,
+  "variant": false,
+  "collab": false,
+  "power": 1650,
+  "priority": 165000,
+  "rarity": 5,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   20,
+   63
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 115,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 350,
+   "run": 700,
+   "rideSprint": 850
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "vanwyrm-cryst",
+  "name": "Vanwyrm Cryst",
+  "internal": "BirdDragon_Ice",
+  "dex": 64,
+  "variant": true,
+  "collab": false,
+  "power": 1430,
+  "priority": 143000,
+  "rarity": 5,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   23,
+   67
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 120,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 350,
+   "run": 700,
+   "rideSprint": 850
+  },
+  "food": 5,
+  "work": {
+   "Cooling": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "felbat",
+  "name": "Felbat",
+  "internal": "CatVampire",
+  "dex": 65,
+  "variant": false,
+  "collab": false,
+  "power": 1570,
+  "priority": 157000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   20,
+   66
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 105,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 100,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 7,
+  "work": {
+   "Medicine Production": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "vaelet",
+  "name": "Vaelet",
+  "internal": "VioletFairy",
+  "dex": 66,
+  "variant": false,
+  "collab": false,
+  "power": 1480,
+  "priority": 148000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   57
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 100,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 150,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 5,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine Production": 3,
+   "Transporting": 2,
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "beegarde",
+  "name": "Beegarde",
+  "internal": "SoldierBee",
+  "dex": 67,
+  "variant": false,
+  "collab": false,
+  "power": 2350,
+  "priority": 235000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   34
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 90,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 250,
+   "run": 450,
+   "rideSprint": 550
+  },
+  "food": 3,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine Production": 2,
+   "Transporting": 2,
+   "Farming": 3
+  },
+  "gender": {
+   "male": 0.1,
+   "female": 0.9
+  }
+ },
+ {
+  "slug": "elizabee",
+  "name": "Elizabee",
+  "internal": "QueenBee",
+  "dex": 68,
+  "variant": false,
+  "collab": false,
+  "power": 1790,
+  "priority": 179000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   34,
+   39
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 105,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 250,
+   "run": 450,
+   "rideSprint": 550
+  },
+  "food": 5,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Lumbering": 3,
+   "Medicine Production": 4
+  },
+  "gender": {
+   "male": 0.1,
+   "female": 0.9
+  }
+ },
+ {
+  "slug": "lovander",
+  "name": "Lovander",
+  "internal": "PinkLizard",
+  "dex": 69,
+  "variant": false,
+  "collab": false,
+  "power": 2090,
+  "priority": 209000,
+  "rarity": 5,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   42
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 70,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 170,
+   "run": 750,
+   "rideSprint": 850
+  },
+  "food": 4,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 2,
+   "Medicine Production": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "grintale",
+  "name": "Grintale",
+  "internal": "NaughtyCat",
+  "dex": 70,
+  "variant": false,
+  "collab": false,
+  "power": 2120,
+  "priority": 212000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   17,
+   48
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 64,
+   "run": 650,
+   "rideSprint": 1000
+  },
+  "food": 4,
+  "work": {
+   "Gathering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tarantriss",
+  "name": "Tarantriss",
+  "internal": "PurpleSpider",
+  "dex": 71,
+  "variant": false,
+  "collab": false,
+  "power": 1730,
+  "priority": 173000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   20,
+   58
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 160,
+   "run": 640,
+   "rideSprint": 1000
+  },
+  "food": 4,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine Production": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "polapup",
+  "name": "Polapup",
+  "internal": "IceSeal",
+  "dex": 72,
+  "variant": false,
+  "collab": false,
+  "power": 1660,
+  "priority": 166000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   33,
+   60
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 45,
+   "run": 250,
+   "rideSprint": 375
+  },
+  "food": 4,
+  "work": {
+   "Watering": 3,
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "polapup-terra",
+  "name": "Polapup Terra",
+  "internal": "IceSeal_Ground",
+  "dex": 72,
+  "variant": true,
+  "collab": false,
+  "power": 1100,
+  "priority": 110000,
+  "rarity": 6,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   60
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 45,
+   "run": 250,
+   "rideSprint": 375
+  },
+  "food": 4,
+  "work": {
+   "Mining": 4,
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "leezpunk",
+  "name": "Leezpunk",
+  "internal": "LizardMan",
+  "dex": 73,
+  "variant": false,
+  "collab": false,
+  "power": 2670,
+  "priority": 267000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   21,
+   40
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 80,
+   "defense": 50
+  },
+  "speed": {
+   "walk": 140,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 2,
+  "work": {
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "leezpunk-ignis",
+  "name": "Leezpunk Ignis",
+  "internal": "LizardMan_Fire",
+  "dex": 73,
+  "variant": true,
+  "collab": false,
+  "power": 2640,
+  "priority": 264000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   28,
+   40
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 80,
+   "defense": 50
+  },
+  "speed": {
+   "walk": 140,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gorirat",
+  "name": "Gorirat",
+  "internal": "Gorilla",
+  "dex": 74,
+  "variant": false,
+  "collab": false,
+  "power": 2140,
+  "priority": 214000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   22,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 95,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 550,
+   "rideSprint": 720
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gorirat-terra",
+  "name": "Gorirat Terra",
+  "internal": "Gorilla_Ground",
+  "dex": 74,
+  "variant": true,
+  "collab": false,
+  "power": 1880,
+  "priority": 188000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 100,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 550,
+   "rideSprint": 720
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "surfent",
+  "name": "Surfent",
+  "internal": "Serpent",
+  "dex": 75,
+  "variant": false,
+  "collab": false,
+  "power": 2440,
+  "priority": 244000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   12,
+   35
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Watering": 3,
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "surfent-terra",
+  "name": "Surfent Terra",
+  "internal": "Serpent_Ground",
+  "dex": 75,
+  "variant": true,
+  "collab": false,
+  "power": 1840,
+  "priority": 184000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   31,
+   63
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "robinquill",
+  "name": "Robinquill",
+  "internal": "RobinHood",
+  "dex": 76,
+  "variant": false,
+  "collab": false,
+  "power": 2260,
+  "priority": 226000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   22,
+   34
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 3,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine Production": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "robinquill-terra",
+  "name": "Robinquill Terra",
+  "internal": "RobinHood_Ground",
+  "dex": 76,
+  "variant": true,
+  "collab": false,
+  "power": 2050,
+  "priority": 205000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   55
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Medicine Production": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "flopie",
+  "name": "Flopie",
+  "internal": "FlowerRabbit",
+  "dex": 77,
+  "variant": false,
+  "collab": false,
+  "power": 2660,
+  "priority": 266000,
+  "rarity": 1,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   35
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 65,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Planting": 2,
+   "Handiwork": 2,
+   "Gathering": 2,
+   "Medicine Production": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wixen",
+  "name": "Wixen",
+  "internal": "FoxMage",
+  "dex": 78,
+  "variant": false,
+  "collab": false,
+  "power": 2080,
+  "priority": 208000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   38
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 110,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 145,
+   "run": 440,
+   "rideSprint": 620
+  },
+  "food": 4,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wixen-noct",
+  "name": "Wixen Noct",
+  "internal": "FoxMage_Dark",
+  "dex": 78,
+  "variant": true,
+  "collab": false,
+  "power": 1490,
+  "priority": 149000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   55
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 110,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 145,
+   "run": 440,
+   "rideSprint": 620
+  },
+  "food": 4,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "katress",
+  "name": "Katress",
+  "internal": "CatMage",
+  "dex": 79,
+  "variant": false,
+  "collab": false,
+  "power": 2040,
+  "priority": 204000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   20,
+   46
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 105,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 145,
+   "run": 440,
+   "rideSprint": 620
+  },
+  "food": 4,
+  "work": {
+   "Handiwork": 3,
+   "Medicine Production": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "katress-ignis",
+  "name": "Katress Ignis",
+  "internal": "CatMage_Fire",
+  "dex": 79,
+  "variant": true,
+  "collab": false,
+  "power": 1800,
+  "priority": 180000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   52
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 145,
+   "run": 440,
+   "rideSprint": 620
+  },
+  "food": 4,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Medicine Production": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "helzephyr",
+  "name": "Helzephyr",
+  "internal": "HadesBird",
+  "dex": 80,
+  "variant": false,
+  "collab": false,
+  "power": 1130,
+  "priority": 113000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   24,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 125,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 7,
+  "work": {
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "helzephyr-lux",
+  "name": "Helzephyr Lux",
+  "internal": "HadesBird_Electric",
+  "dex": 80,
+  "variant": true,
+  "collab": false,
+  "power": 960,
+  "priority": 96000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   47,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 125,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 7,
+  "work": {
+   "Generating Electricity": 4,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "elgrove",
+  "name": "Elgrove",
+  "internal": "GrassMinotaur",
+  "dex": 81,
+  "variant": false,
+  "collab": false,
+  "power": 2020,
+  "priority": 202000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   24,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 150,
+   "run": 700,
+   "rideSprint": 1000
+  },
+  "food": 8,
+  "work": {
+   "Planting": 3,
+   "Gathering": 2,
+   "Lumbering": 3,
+   "Mining": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "elgrove-cryst",
+  "name": "Elgrove Cryst",
+  "internal": "GrassMinotaur_Ice",
+  "dex": 81,
+  "variant": true,
+  "collab": false,
+  "power": 440,
+  "priority": 44000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 100,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 150,
+   "run": 700,
+   "rideSprint": 1000
+  },
+  "food": 8,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 3,
+   "Cooling": 5,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "lunaris",
+  "name": "Lunaris",
+  "internal": "Mutant",
+  "dex": 82,
+  "variant": false,
+  "collab": false,
+  "power": 2010,
+  "priority": 201000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   49
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 100,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 130,
+   "run": 500,
+   "rideSprint": 650
+  },
+  "food": 4,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "fenglope",
+  "name": "Fenglope",
+  "internal": "FengyunDeeper",
+  "dex": 83,
+  "variant": false,
+  "collab": false,
+  "power": 1960,
+  "priority": 196000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 110,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 750,
+   "rideSprint": 1050
+  },
+  "food": 5,
+  "work": {
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "fenglope-lux",
+  "name": "Fenglope Lux",
+  "internal": "FengyunDeeper_Electric",
+  "dex": 83,
+  "variant": true,
+  "collab": false,
+  "power": 900,
+  "priority": 90000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   57,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 115,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 750,
+   "rideSprint": 1050
+  },
+  "food": 5,
+  "work": {
+   "Generating Electricity": 5,
+   "Lumbering": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dinossom",
+  "name": "Dinossom",
+  "internal": "FlowerDinosaur",
+  "dex": 84,
+  "variant": false,
+  "collab": false,
+  "power": 2100,
+  "priority": 210000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   10,
+   35
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 120,
+   "run": 700,
+   "rideSprint": 1030
+  },
+  "food": 4,
+  "work": {
+   "Planting": 3,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dinossom-lux",
+  "name": "Dinossom Lux",
+  "internal": "FlowerDinosaur_Electric",
+  "dex": 84,
+  "variant": true,
+  "collab": false,
+  "power": 1890,
+  "priority": 189000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   47
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 90,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 120,
+   "run": 700,
+   "rideSprint": 1030
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 3,
+   "Lumbering": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "bushi",
+  "name": "Bushi",
+  "internal": "Ronin",
+  "dex": 85,
+  "variant": false,
+  "collab": false,
+  "power": 1560,
+  "priority": 156000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   59
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 125,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 160,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Lumbering": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "bushi-noct",
+  "name": "Bushi Noct",
+  "internal": "Ronin_Dark",
+  "dex": 85,
+  "variant": true,
+  "collab": false,
+  "power": 840,
+  "priority": 84000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   46,
+   67
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 130,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 160,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 2,
+   "Handiwork": 2,
+   "Gathering": 1,
+   "Lumbering": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "munchill",
+  "name": "Munchill",
+  "internal": "IceCrocodile",
+  "dex": 86,
+  "variant": false,
+  "collab": false,
+  "power": 2130,
+  "priority": 213000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   10,
+   60
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 80,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 40,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Cooling": 3,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mammorest",
+  "name": "Mammorest",
+  "internal": "GrassMammoth",
+  "dex": 87,
+  "variant": false,
+  "collab": false,
+  "power": 1340,
+  "priority": 134000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   26,
+   80
+  ],
+  "stats": {
+   "hp": 150,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 135,
+   "run": 600,
+   "rideSprint": 1030
+  },
+  "food": 6,
+  "work": {
+   "Planting": 4,
+   "Lumbering": 4,
+   "Mining": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mammorest-cryst",
+  "name": "Mammorest Cryst",
+  "internal": "GrassMammoth_Ice",
+  "dex": 87,
+  "variant": true,
+  "collab": false,
+  "power": 1070,
+  "priority": 107000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   36,
+   80
+  ],
+  "stats": {
+   "hp": 150,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 135,
+   "run": 600,
+   "rideSprint": 1030
+  },
+  "food": 6,
+  "work": {
+   "Lumbering": 5,
+   "Mining": 4,
+   "Cooling": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "finsider",
+  "name": "Finsider",
+  "internal": "StuffedShark",
+  "dex": 88,
+  "variant": false,
+  "collab": false,
+  "power": 2450,
+  "priority": 245000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   40
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 250,
+   "rideSprint": 400
+  },
+  "food": 2,
+  "work": {
+   "Watering": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "finsider-ignis",
+  "name": "Finsider Ignis",
+  "internal": "StuffedShark_Fire",
+  "dex": 88,
+  "variant": true,
+  "collab": false,
+  "power": 2240,
+  "priority": 581,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 75,
+   "attack": 90,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 250,
+   "rideSprint": 400
+  },
+  "food": 2,
+  "work": {
+   "Kindling": 2,
+   "Watering": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "petallia",
+  "name": "Petallia",
+  "internal": "FlowerDoll",
+  "dex": 89,
+  "variant": false,
+  "collab": false,
+  "power": 1720,
+  "priority": 172000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   28,
+   57
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 95,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 6,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine Production": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "petallia-ignis",
+  "name": "Petallia Ignis",
+  "internal": "FlowerDoll_Fire",
+  "dex": 89,
+  "variant": true,
+  "collab": false,
+  "power": 820,
+  "priority": 82000,
+  "rarity": 9,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   71,
+   73
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 6,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Medicine Production": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "leafan",
+  "name": "Leafan",
+  "internal": "PandaGirl",
+  "dex": 90,
+  "variant": false,
+  "collab": false,
+  "power": 1410,
+  "priority": 141000,
+  "rarity": 7,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   28,
+   69
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 115,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 120,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 7,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "incineram",
+  "name": "Incineram",
+  "internal": "Baphomet",
+  "dex": 91,
+  "variant": false,
+  "collab": false,
+  "power": 1470,
+  "priority": 147000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   44
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 100,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 160,
+   "run": 700,
+   "rideSprint": 960
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 2,
+   "Mining": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "incineram-noct",
+  "name": "Incineram Noct",
+  "internal": "Baphomet_Dark",
+  "dex": 91,
+  "variant": true,
+  "collab": false,
+  "power": 1310,
+  "priority": 131000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   37,
+   39
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 160,
+   "run": 700,
+   "rideSprint": 960
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 4,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dazzi",
+  "name": "Dazzi",
+  "internal": "RaijinDaughter",
+  "dex": 92,
+  "variant": false,
+  "collab": false,
+  "power": 2400,
+  "priority": 240000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   55
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 200,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Generating Electricity": 3,
+   "Handiwork": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.2,
+   "female": 0.8
+  }
+ },
+ {
+  "slug": "dazzi-noct",
+  "name": "Dazzi Noct",
+  "internal": "RaijinDaughter_Water",
+  "dex": 92,
+  "variant": true,
+  "collab": false,
+  "power": 1910,
+  "priority": 191000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   20,
+   66
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 80,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 200,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 2,
+  "work": {
+   "Generating Electricity": 1,
+   "Handiwork": 1,
+   "Medicine Production": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.2,
+   "female": 0.8
+  }
+ },
+ {
+  "slug": "pyrin",
+  "name": "Pyrin",
+  "internal": "FireKirin",
+  "dex": 93,
+  "variant": false,
+  "collab": false,
+  "power": 1980,
+  "priority": 198000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   29,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 95,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 150,
+   "run": 850,
+   "rideSprint": 1300
+  },
+  "food": 4,
+  "work": {
+   "Kindling": 4,
+   "Lumbering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pyrin-noct",
+  "name": "Pyrin Noct",
+  "internal": "FireKirin_Dark",
+  "dex": 93,
+  "variant": true,
+  "collab": false,
+  "power": 1870,
+  "priority": 187000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   32,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 95,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 150,
+   "run": 850,
+   "rideSprint": 1300
+  },
+  "food": 4,
+  "work": {
+   "Kindling": 4,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "relaxaurus",
+  "name": "Relaxaurus",
+  "internal": "LazyDragon",
+  "dex": 94,
+  "variant": false,
+  "collab": false,
+  "power": 1090,
+  "priority": 109000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 115,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 60,
+   "run": 650,
+   "rideSprint": 1000
+  },
+  "food": 7,
+  "work": {
+   "Watering": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "relaxaurus-lux",
+  "name": "Relaxaurus Lux",
+  "internal": "LazyDragon_Electric",
+  "dex": 94,
+  "variant": true,
+  "collab": false,
+  "power": 770,
+  "priority": 77000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   48,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 120,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 60,
+   "run": 650,
+   "rideSprint": 1000
+  },
+  "food": 7,
+  "work": {
+   "Generating Electricity": 4,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "foxcicle",
+  "name": "Foxcicle",
+  "internal": "IceFox",
+  "dex": 95,
+  "variant": false,
+  "collab": false,
+  "power": 1970,
+  "priority": 197000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   37
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 95,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 4,
+  "work": {
+   "Cooling": 4,
+   "Farming": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "beakon",
+  "name": "Beakon",
+  "internal": "ThunderBird",
+  "dex": 96,
+  "variant": false,
+  "collab": false,
+  "power": 1690,
+  "priority": 169000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 115,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 200,
+   "run": 750,
+   "rideSprint": 1200
+  },
+  "food": 5,
+  "work": {
+   "Generating Electricity": 4,
+   "Gathering": 2,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "beakon-cryst",
+  "name": "Beakon Cryst",
+  "internal": "ThunderBird_Ice",
+  "dex": 96,
+  "variant": true,
+  "collab": false,
+  "power": 580,
+  "priority": 58000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 115,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 200,
+   "run": 750,
+   "rideSprint": 1200
+  },
+  "food": 5,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 5,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ghangler",
+  "name": "Ghangler",
+  "internal": "GhostAnglerfish",
+  "dex": 97,
+  "variant": false,
+  "collab": false,
+  "power": 880,
+  "priority": 88000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 125,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 7,
+  "work": {
+   "Watering": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ghangler-ignis",
+  "name": "Ghangler Ignis",
+  "internal": "GhostAnglerfish_Fire",
+  "dex": 97,
+  "variant": true,
+  "collab": false,
+  "power": 720,
+  "priority": 72000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 90,
+   "attack": 130,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 5,
+   "Watering": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "rayhound",
+  "name": "Rayhound",
+  "internal": "ThunderDog",
+  "dex": 98,
+  "variant": false,
+  "collab": false,
+  "power": 1920,
+  "priority": 192000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   20,
+   58
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 100,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 210,
+   "run": 700,
+   "rideSprint": 1150
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "rayhound-cryst",
+  "name": "Rayhound Cryst",
+  "internal": "ThunderDog_Ice",
+  "dex": 98,
+  "variant": true,
+  "collab": false,
+  "power": 1600,
+  "priority": 160000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   35,
+   77
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 210,
+   "run": 700,
+   "rideSprint": 1150
+  },
+  "food": 4,
+  "work": {
+   "Cooling": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "menasting",
+  "name": "Menasting",
+  "internal": "DarkScorpion",
+  "dex": 99,
+  "variant": false,
+  "collab": false,
+  "power": 1120,
+  "priority": 112000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   31,
+   44
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 100,
+   "defense": 130
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1000,
+   "rideSprint": 1200
+  },
+  "food": 6,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "menasting-terra",
+  "name": "Menasting Terra",
+  "internal": "DarkScorpion_Ground",
+  "dex": 99,
+  "variant": true,
+  "collab": false,
+  "power": 640,
+  "priority": 64000,
+  "rarity": 10,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   48,
+   55
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 105,
+   "defense": 130
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1000,
+   "rideSprint": 1200
+  },
+  "food": 6,
+  "work": {
+   "Lumbering": 3,
+   "Mining": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "needoll",
+  "name": "Needoll",
+  "internal": "CactusDoll",
+  "dex": 100,
+  "variant": false,
+  "collab": false,
+  "power": 2420,
+  "priority": 242000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   31,
+   40
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 525,
+   "rideSprint": 630
+  },
+  "food": 2,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "needoll-noct",
+  "name": "Needoll Noct",
+  "internal": "CactusDoll_Dark",
+  "dex": 100,
+  "variant": true,
+  "collab": false,
+  "power": 1580,
+  "priority": 158000,
+  "rarity": 3,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   33,
+   36
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 90,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 100,
+   "run": 525,
+   "rideSprint": 630
+  },
+  "food": 2,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "reindrix",
+  "name": "Reindrix",
+  "internal": "IceDeer",
+  "dex": 101,
+  "variant": false,
+  "collab": false,
+  "power": 1930,
+  "priority": 193000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 85,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 70,
+   "run": 700,
+   "rideSprint": 1070
+  },
+  "food": 4,
+  "work": {
+   "Lumbering": 3,
+   "Cooling": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mossanda",
+  "name": "Mossanda",
+  "internal": "GrassPanda",
+  "dex": 102,
+  "variant": false,
+  "collab": false,
+  "power": 2060,
+  "priority": 206000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   27,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 90,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 1000
+  },
+  "food": 4,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 2,
+   "Lumbering": 4,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "mossanda-lux",
+  "name": "Mossanda Lux",
+  "internal": "GrassPanda_Electric",
+  "dex": 102,
+  "variant": true,
+  "collab": false,
+  "power": 1440,
+  "priority": 144000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   15,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 1000
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 4,
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "chillet",
+  "name": "Chillet",
+  "internal": "WeaselDragon",
+  "dex": 103,
+  "variant": false,
+  "collab": false,
+  "power": 2330,
+  "priority": 233000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   11,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 80,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 180,
+   "run": 750,
+   "rideSprint": 1050
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 1,
+   "Cooling": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "chillet-ignis",
+  "name": "Chillet Ignis",
+  "internal": "WeaselDragon_Fire",
+  "dex": 103,
+  "variant": true,
+  "collab": false,
+  "power": 1950,
+  "priority": 195000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 85,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 180,
+   "run": 750,
+   "rideSprint": 1050
+  },
+  "food": 3,
+  "work": {
+   "Kindling": 4,
+   "Gathering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ragnahawk",
+  "name": "Ragnahawk",
+  "internal": "RedArmorBird",
+  "dex": 104,
+  "variant": false,
+  "collab": false,
+  "power": 1050,
+  "priority": 105000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   80
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 200,
+   "run": 800,
+   "rideSprint": 1300
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 4,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "moldron",
+  "name": "Moldron",
+  "internal": "VolcanoDragon",
+  "dex": 105,
+  "variant": false,
+  "collab": false,
+  "power": 750,
+  "priority": 75000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 125,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 220,
+   "run": 650,
+   "rideSprint": 850
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 5,
+   "Mining": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "moldron-cryst",
+  "name": "Moldron Cryst",
+  "internal": "VolcanoDragon_Ice",
+  "dex": 105,
+  "variant": true,
+  "collab": false,
+  "power": 380,
+  "priority": 38000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   78,
+   78
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 125,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 220,
+   "run": 650,
+   "rideSprint": 850
+  },
+  "food": 8,
+  "work": {
+   "Mining": 5,
+   "Cooling": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "palumba",
+  "name": "Palumba",
+  "internal": "TropicalOstrich",
+  "dex": 106,
+  "variant": false,
+  "collab": false,
+  "power": 1240,
+  "priority": 124000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   50
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 110,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 180,
+   "run": 550,
+   "rideSprint": 1000
+  },
+  "food": 6,
+  "work": {
+   "Planting": 4,
+   "Gathering": 4,
+   "Mining": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "digtoise",
+  "name": "Digtoise",
+  "internal": "DrillGame",
+  "dex": 107,
+  "variant": false,
+  "collab": false,
+  "power": 1550,
+  "priority": 155000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   17,
+   44
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 95,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 120,
+   "run": 300,
+   "rideSprint": 420
+  },
+  "food": 5,
+  "work": {
+   "Mining": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "broncherry",
+  "name": "Broncherry",
+  "internal": "SakuraSaurus",
+  "dex": 108,
+  "variant": false,
+  "collab": false,
+  "power": 1380,
+  "priority": 138000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   23,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 90,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 75,
+   "run": 550,
+   "rideSprint": 1020
+  },
+  "food": 6,
+  "work": {
+   "Planting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "broncherry-aqua",
+  "name": "Broncherry Aqua",
+  "internal": "SakuraSaurus_Water",
+  "dex": 108,
+  "variant": true,
+  "collab": false,
+  "power": 1080,
+  "priority": 108000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 95,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 75,
+   "run": 550,
+   "rideSprint": 1020
+  },
+  "food": 6,
+  "work": {
+   "Watering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dumud",
+  "name": "Dumud",
+  "internal": "LazyCatfish",
+  "dex": 109,
+  "variant": false,
+  "collab": false,
+  "power": 2290,
+  "priority": 229000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   1,
+   50
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 70,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 150,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Mining": 2,
+   "Transporting": 1,
+   "Farming": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dumud-gild",
+  "name": "Dumud Gild",
+  "internal": "LazyCatfish_Gold",
+  "dex": 109,
+  "variant": true,
+  "collab": false,
+  "power": 1620,
+  "priority": 576,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   65
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 75,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 3,
+  "work": {
+   "Watering": 2,
+   "Mining": 2,
+   "Transporting": 1,
+   "Farming": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "braloha",
+  "name": "Braloha",
+  "internal": "Plesiosaur",
+  "dex": 110,
+  "variant": false,
+  "collab": false,
+  "power": 1030,
+  "priority": 103000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   33,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 95,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 95,
+   "run": 600,
+   "rideSprint": 1020
+  },
+  "food": 7,
+  "work": {
+   "Planting": 5,
+   "Gathering": 5,
+   "Mining": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "kitsun",
+  "name": "Kitsun",
+  "internal": "AmaterasuWolf",
+  "dex": 111,
+  "variant": false,
+  "collab": false,
+  "power": 1670,
+  "priority": 167000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   34,
+   38
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 115,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 130,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "kitsun-noct",
+  "name": "Kitsun Noct",
+  "internal": "AmaterasuWolf_Dark",
+  "dex": 111,
+  "variant": true,
+  "collab": false,
+  "power": 800,
+  "priority": 80000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   56,
+   66
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 115,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "blazehowl",
+  "name": "Blazehowl",
+  "internal": "Manticore",
+  "dex": 112,
+  "variant": false,
+  "collab": false,
+  "power": 1360,
+  "priority": 136000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 110,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 180,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 6,
+  "work": {
+   "Kindling": 5,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "blazehowl-noct",
+  "name": "Blazehowl Noct",
+  "internal": "Manticore_Dark",
+  "dex": 112,
+  "variant": true,
+  "collab": false,
+  "power": 1270,
+  "priority": 127000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   34,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 115,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 90,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 6,
+  "work": {
+   "Kindling": 5,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "warsect",
+  "name": "Warsect",
+  "internal": "HerculesBeetle",
+  "dex": 113,
+  "variant": false,
+  "collab": false,
+  "power": 1280,
+  "priority": 128000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   34,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 100,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 110,
+   "run": 500,
+   "rideSprint": 600
+  },
+  "food": 6,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.85,
+   "female": 0.14999998
+  }
+ },
+ {
+  "slug": "warsect-terra",
+  "name": "Warsect Terra",
+  "internal": "HerculesBeetle_Ground",
+  "dex": 113,
+  "variant": true,
+  "collab": false,
+  "power": 630,
+  "priority": 63000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   64
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 105,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 110,
+   "run": 500,
+   "rideSprint": 600
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 5,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.85,
+   "female": 0.14999998
+  }
+ },
+ {
+  "slug": "frostplume",
+  "name": "Frostplume",
+  "internal": "SnowPeafowl",
+  "dex": 114,
+  "variant": false,
+  "collab": false,
+  "power": 860,
+  "priority": 86000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   39,
+   68
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 500,
+   "rideSprint": 750
+  },
+  "food": 5,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "majex",
+  "name": "Majex",
+  "internal": "DarkFlameFox",
+  "dex": 115,
+  "variant": false,
+  "collab": false,
+  "power": 1010,
+  "priority": 101000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   35,
+   77
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 115,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 150,
+   "run": 500,
+   "rideSprint": 750
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 5,
+   "Medicine Production": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "sibelyx",
+  "name": "Sibelyx",
+  "internal": "WhiteMoth",
+  "dex": 116,
+  "variant": false,
+  "collab": false,
+  "power": 1810,
+  "priority": 181000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   25,
+   45
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 90,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 5,
+  "work": {
+   "Medicine Production": 3,
+   "Cooling": 3,
+   "Farming": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "sibelyx-primo",
+  "name": "Sibelyx Primo",
+  "internal": "WhiteMoth_Neutral",
+  "dex": 116,
+  "variant": true,
+  "collab": false,
+  "power": 650,
+  "priority": 65000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   78
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 90,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 5,
+  "work": {
+   "Medicine Production": 3,
+   "Farming": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "maraith",
+  "name": "Maraith",
+  "internal": "GhostBeast",
+  "dex": 117,
+  "variant": false,
+  "collab": false,
+  "power": 1710,
+  "priority": 171000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   38,
+   60
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 160,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 5,
+  "work": {
+   "Gathering": 4,
+   "Mining": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "shroomer",
+  "name": "Shroomer",
+  "internal": "MushroomDragon",
+  "dex": 118,
+  "variant": false,
+  "collab": false,
+  "power": 1520,
+  "priority": 152000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   77
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 80,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 80,
+   "run": 740,
+   "rideSprint": 1050
+  },
+  "food": 5,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Lumbering": 2,
+   "Farming": 3
+  },
+  "gender": {
+   "male": 0.55,
+   "female": 0.45
+  }
+ },
+ {
+  "slug": "shroomer-noct",
+  "name": "Shroomer Noct",
+  "internal": "MushroomDragon_Dark",
+  "dex": 118,
+  "variant": true,
+  "collab": false,
+  "power": 1450,
+  "priority": 145000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   39,
+   77
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 80,
+   "run": 740,
+   "rideSprint": 1050
+  },
+  "food": 5,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 3,
+   "Lumbering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "icelyn",
+  "name": "Icelyn",
+  "internal": "IceWitch",
+  "dex": 119,
+  "variant": false,
+  "collab": false,
+  "power": 1260,
+  "priority": 126000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 95,
+   "attack": 115,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 150,
+   "run": 400,
+   "rideSprint": 600
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 5,
+   "Medicine Production": 4,
+   "Cooling": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "gildra",
+  "name": "Gildra",
+  "internal": "MummyPal",
+  "dex": 120,
+  "variant": false,
+  "collab": false,
+  "power": 1170,
+  "priority": 117000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   39,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 120,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 150,
+   "run": 480,
+   "rideSprint": 720
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 5,
+   "Medicine Production": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jormuntide",
+  "name": "Jormuntide",
+  "internal": "Umihebi",
+  "dex": 121,
+  "variant": false,
+  "collab": false,
+  "power": 590,
+  "priority": 59000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 120,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 175,
+   "run": 600,
+   "rideSprint": 1000
+  },
+  "food": 8,
+  "work": {
+   "Watering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jormuntide-ignis",
+  "name": "Jormuntide Ignis",
+  "internal": "Umihebi_Fire",
+  "dex": 121,
+  "variant": true,
+  "collab": false,
+  "power": 170,
+  "priority": 17000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   66,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 130,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 175,
+   "run": 600,
+   "rideSprint": 1000
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "suzaku",
+  "name": "Suzaku",
+  "internal": "Suzaku",
+  "dex": 122,
+  "variant": false,
+  "collab": false,
+  "power": 1200,
+  "priority": 120000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   40,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 200,
+   "run": 850,
+   "rideSprint": 1100
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "suzaku-aqua",
+  "name": "Suzaku Aqua",
+  "internal": "Suzaku_Water",
+  "dex": 122,
+  "variant": true,
+  "collab": false,
+  "power": 740,
+  "priority": 74000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   80
+  ],
+  "stats": {
+   "hp": 125,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 200,
+   "run": 850,
+   "rideSprint": 1100
+  },
+  "food": 7,
+  "work": {
+   "Watering": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dazemu",
+  "name": "Dazemu",
+  "internal": "FeatherOstrich",
+  "dex": 123,
+  "variant": false,
+  "collab": false,
+  "power": 2210,
+  "priority": 221000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   31,
+   49
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 90,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 160,
+   "run": 900,
+   "rideSprint": 1200
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "quivern",
+  "name": "Quivern",
+  "internal": "SkyDragon",
+  "dex": 124,
+  "variant": false,
+  "collab": false,
+  "power": 1210,
+  "priority": 121000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   40,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 240,
+   "run": 800,
+   "rideSprint": 950
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 2,
+   "Gathering": 3,
+   "Mining": 4,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "quivern-botan",
+  "name": "Quivern Botan",
+  "internal": "SkyDragon_Grass",
+  "dex": 124,
+  "variant": true,
+  "collab": false,
+  "power": 1300,
+  "priority": 130000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   45,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 105,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 240,
+   "run": 800,
+   "rideSprint": 950
+  },
+  "food": 6,
+  "work": {
+   "Planting": 5,
+   "Handiwork": 2,
+   "Gathering": 4,
+   "Mining": 3,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "lullu",
+  "name": "Lullu",
+  "internal": "LeafPrincess",
+  "dex": 125,
+  "variant": false,
+  "collab": false,
+  "power": 1990,
+  "priority": 199000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   65
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 800
+  },
+  "food": 4,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Medicine Production": 3
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "kikit",
+  "name": "Kikit",
+  "internal": "SmallArmadillo",
+  "dex": 126,
+  "variant": false,
+  "collab": false,
+  "power": 2310,
+  "priority": 231000,
+  "rarity": 4,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   49
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 70,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 800,
+   "rideSprint": 900
+  },
+  "food": 3,
+  "work": {
+   "Mining": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "yakumo",
+  "name": "Yakumo",
+  "internal": "GuardianDog",
+  "dex": 127,
+  "variant": false,
+  "collab": false,
+  "power": 2230,
+  "priority": 223000,
+  "rarity": 4,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   65
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 85,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 110,
+   "run": 750,
+   "rideSprint": 1080
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "skutlass",
+  "name": "Skutlass",
+  "internal": "SwordCutlassfish",
+  "dex": 128,
+  "variant": false,
+  "collab": false,
+  "power": 1420,
+  "priority": 142000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   66
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 100,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 5,
+  "work": {
+   "Watering": 4,
+   "Gathering": 1,
+   "Lumbering": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "skutlass-ignis",
+  "name": "Skutlass Ignis",
+  "internal": "SwordCutlassfish_Fire",
+  "dex": 128,
+  "variant": true,
+  "collab": false,
+  "power": 1590,
+  "priority": 159000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   40,
+   44
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 105,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 200,
+   "run": 500,
+   "rideSprint": 800
+  },
+  "food": 5,
+  "work": {
+   "Kindling": 3,
+   "Watering": 2,
+   "Gathering": 2,
+   "Lumbering": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "reptyro",
+  "name": "Reptyro",
+  "internal": "VolcanicMonster",
+  "dex": 129,
+  "variant": false,
+  "collab": false,
+  "power": 1060,
+  "priority": 106000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   36,
+   50
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 80,
+   "run": 550,
+   "rideSprint": 1000
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 5,
+   "Mining": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "reptyro-cryst",
+  "name": "Reptyro Cryst",
+  "internal": "VolcanicMonster_Ice",
+  "dex": 129,
+  "variant": true,
+  "collab": false,
+  "power": 600,
+  "priority": 60000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   67
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 130
+  },
+  "speed": {
+   "walk": 80,
+   "run": 550,
+   "rideSprint": 1000
+  },
+  "food": 7,
+  "work": {
+   "Mining": 5,
+   "Cooling": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "starryon",
+  "name": "Starryon",
+  "internal": "NightBlueHorse",
+  "dex": 130,
+  "variant": false,
+  "collab": false,
+  "power": 1150,
+  "priority": 115000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   42,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 900,
+   "rideSprint": 1250
+  },
+  "food": 6,
+  "work": {
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "starryon-primo",
+  "name": "Starryon Primo",
+  "internal": "NightBlueHorse_Neutral",
+  "dex": 130,
+  "variant": true,
+  "collab": false,
+  "power": 430,
+  "priority": 43000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   74,
+   76
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 900,
+   "rideSprint": 1250
+  },
+  "food": 6,
+  "work": {
+   "Gathering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pierdon",
+  "name": "Pierdon",
+  "internal": "RockBeast",
+  "dex": 131,
+  "variant": false,
+  "collab": false,
+  "power": 1110,
+  "priority": 111000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   50
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 105,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 140,
+   "run": 350,
+   "rideSprint": 550
+  },
+  "food": 8,
+  "work": {
+   "Mining": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "pierdon-cryst",
+  "name": "Pierdon Cryst",
+  "internal": "RockBeast_Ice",
+  "dex": 131,
+  "variant": true,
+  "collab": false,
+  "power": 460,
+  "priority": 46000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   68,
+   69
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 110,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 140,
+   "run": 350,
+   "rideSprint": 550
+  },
+  "food": 8,
+  "work": {
+   "Mining": 5,
+   "Cooling": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cryolinx",
+  "name": "Cryolinx",
+  "internal": "WhiteTiger",
+  "dex": 132,
+  "variant": false,
+  "collab": false,
+  "power": 1040,
+  "priority": 104000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   49
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 100,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 280,
+   "run": 720,
+   "rideSprint": 900
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 3,
+   "Lumbering": 4,
+   "Cooling": 4,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cryolinx-terra",
+  "name": "Cryolinx Terra",
+  "internal": "WhiteTiger_Ground",
+  "dex": 132,
+  "variant": true,
+  "collab": false,
+  "power": 470,
+  "priority": 47000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   56,
+   64
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 105,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 280,
+   "run": 720,
+   "rideSprint": 900
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 2,
+   "Lumbering": 6,
+   "Mining": 5,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "snugloo",
+  "name": "Snugloo",
+  "internal": "SmallYeti",
+  "dex": 133,
+  "variant": false,
+  "collab": false,
+  "power": 2390,
+  "priority": 239000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   32,
+   34
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 85,
+   "run": 400,
+   "rideSprint": 600
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 2,
+   "Mining": 3,
+   "Cooling": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wumpo",
+  "name": "Wumpo",
+  "internal": "Yeti",
+  "dex": 134,
+  "variant": false,
+  "collab": false,
+  "power": 830,
+  "priority": 83000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   80
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 80,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 1050
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 3,
+   "Lumbering": 5,
+   "Cooling": 5,
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wumpo-botan",
+  "name": "Wumpo Botan",
+  "internal": "Yeti_Grass",
+  "dex": 134,
+  "variant": true,
+  "collab": false,
+  "power": 610,
+  "priority": 61000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   38,
+   80
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 80,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 1050
+  },
+  "food": 7,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 3,
+   "Lumbering": 5,
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "sootseer",
+  "name": "Sootseer",
+  "internal": "CandleGhost",
+  "dex": 135,
+  "variant": false,
+  "collab": false,
+  "power": 980,
+  "priority": 98000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   45,
+   67
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 125,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 250,
+   "run": 800,
+   "rideSprint": 1000
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 3,
+   "Handiwork": 3,
+   "Gathering": 2,
+   "Mining": 3,
+   "Farming": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "carnibora",
+  "name": "Carnibora",
+  "internal": "VenusFlytrap",
+  "dex": 136,
+  "variant": false,
+  "collab": false,
+  "power": 1700,
+  "priority": 170000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   45,
+   48
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 90,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 7,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "blazamut",
+  "name": "Blazamut",
+  "internal": "KingBahamut",
+  "dex": 137,
+  "variant": false,
+  "collab": false,
+  "power": 410,
+  "priority": 41000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   46,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 125,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 400,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 9,
+  "work": {
+   "Kindling": 6,
+   "Mining": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "blazamut-ryu",
+  "name": "Blazamut Ryu",
+  "internal": "KingBahamut_Dragon",
+  "dex": 137,
+  "variant": true,
+  "collab": false,
+  "power": 100,
+  "priority": 10000,
+  "rarity": 10,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 105,
+   "attack": 130,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 400,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 9,
+  "work": {
+   "Kindling": 6,
+   "Mining": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dualith",
+  "name": "Dualith",
+  "internal": "GrassGolem",
+  "dex": 138,
+  "variant": false,
+  "collab": false,
+  "power": 510,
+  "priority": 51000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   46,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 200,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 8,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Lumbering": 5,
+   "Mining": 6,
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dualith-noct",
+  "name": "Dualith Noct",
+  "internal": "GrassGolem_Dark",
+  "dex": 138,
+  "variant": true,
+  "collab": false,
+  "power": 250,
+  "priority": 25000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": true,
+  "wildLevel": [
+   70,
+   77
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 110,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 200,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 8,
+  "work": {
+   "Planting": 3,
+   "Gathering": 3,
+   "Lumbering": 5,
+   "Mining": 6,
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "anubis",
+  "name": "Anubis",
+  "internal": "Anubis",
+  "dex": 139,
+  "variant": false,
+  "collab": false,
+  "power": 480,
+  "priority": 48000,
+  "rarity": 10,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 130,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 160,
+   "run": 800,
+   "rideSprint": 1000
+  },
+  "food": 8,
+  "work": {
+   "Handiwork": 6,
+   "Mining": 6,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "sekhmet",
+  "name": "Sekhmet",
+  "internal": "Sekhmet",
+  "dex": 140,
+  "variant": false,
+  "collab": false,
+  "power": 870,
+  "priority": 87000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   37,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 115,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 200,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 6,
+   "Mining": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "prixter",
+  "name": "Prixter",
+  "internal": "ScorpionMan",
+  "dex": 141,
+  "variant": false,
+  "collab": false,
+  "power": 1510,
+  "priority": 151000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   48,
+   49
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 110,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 180,
+   "run": 720,
+   "rideSprint": -1
+  },
+  "food": 5,
+  "work": {
+   "Gathering": 2,
+   "Lumbering": 4,
+   "Medicine Production": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "prixter-lux",
+  "name": "Prixter Lux",
+  "internal": "ScorpionMan_Electric",
+  "dex": 141,
+  "variant": true,
+  "collab": false,
+  "power": 850,
+  "priority": 85000,
+  "rarity": 6,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   70
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 115,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 180,
+   "run": 720,
+   "rideSprint": -1
+  },
+  "food": 5,
+  "work": {
+   "Generating Electricity": 3,
+   "Gathering": 2,
+   "Lumbering": 4,
+   "Medicine Production": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tetroise",
+  "name": "Tetroise",
+  "internal": "CubeTurtle",
+  "dex": 142,
+  "variant": false,
+  "collab": false,
+  "power": 790,
+  "priority": 79000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   48,
+   80
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 100,
+   "defense": 135
+  },
+  "speed": {
+   "walk": 80,
+   "run": 360,
+   "rideSprint": 540
+  },
+  "food": 8,
+  "work": {
+   "Mining": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tetroise-primo",
+  "name": "Tetroise Primo",
+  "internal": "CubeTurtle_Neutral",
+  "dex": 142,
+  "variant": true,
+  "collab": false,
+  "power": 200,
+  "priority": 20000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   60,
+   78
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 100,
+   "defense": 140
+  },
+  "speed": {
+   "walk": 80,
+   "run": 360,
+   "rideSprint": 540
+  },
+  "food": 8,
+  "work": {
+   "Mining": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "nyafia",
+  "name": "Nyafia",
+  "internal": "BadCatgirl",
+  "dex": 143,
+  "variant": false,
+  "collab": false,
+  "power": 1250,
+  "priority": 125000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   60
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 100,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Lumbering": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "mimog",
+  "name": "Mimog",
+  "internal": "MimicDog",
+  "dex": 144,
+  "variant": false,
+  "collab": false,
+  "power": 1740,
+  "priority": 174000,
+  "rarity": 7,
+  "size": "XS",
+  "nocturnal": false,
+  "wildLevel": [
+   5,
+   80
+  ],
+  "stats": {
+   "hp": 60,
+   "attack": 60,
+   "defense": 130
+  },
+  "speed": {
+   "walk": 80,
+   "run": 2000,
+   "rideSprint": -1
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 1,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.8,
+   "female": 0.19999999
+  }
+ },
+ {
+  "slug": "xenovader",
+  "name": "Xenovader",
+  "internal": "DarkAlien",
+  "dex": 145,
+  "variant": false,
+  "collab": false,
+  "power": 1820,
+  "priority": 182000,
+  "rarity": 7,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   25,
+   30
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 125,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 245,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 4,
+  "work": {
+   "Lumbering": 3,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "xenogard",
+  "name": "Xenogard",
+  "internal": "WhiteAlienDragon",
+  "dex": 146,
+  "variant": false,
+  "collab": false,
+  "power": 990,
+  "priority": 99000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 110,
+   "attack": 120,
+   "defense": 130
+  },
+  "speed": {
+   "walk": 230,
+   "run": 790,
+   "rideSprint": 1200
+  },
+  "food": 7,
+  "work": {
+   "Mining": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "prunelia",
+  "name": "Prunelia",
+  "internal": "BlueberryFairy",
+  "dex": 147,
+  "variant": false,
+  "collab": false,
+  "power": 1390,
+  "priority": 139000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   66
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 95,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 5,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 1,
+   "Gathering": 2,
+   "Medicine Production": 3,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "nitemary",
+  "name": "Nitemary",
+  "internal": "GhostRabbit",
+  "dex": 148,
+  "variant": false,
+  "collab": false,
+  "power": 1230,
+  "priority": 123000,
+  "rarity": 6,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   50,
+   67
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 95,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 380,
+   "rideSprint": 500
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "nitemary-botan",
+  "name": "Nitemary Botan",
+  "internal": "GhostRabbit_Grass",
+  "dex": 148,
+  "variant": true,
+  "collab": false,
+  "power": 1320,
+  "priority": 132000,
+  "rarity": 7,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   50,
+   54
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 95,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 380,
+   "rideSprint": 500
+  },
+  "food": 6,
+  "work": {
+   "Planting": 3,
+   "Handiwork": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "smokie",
+  "name": "Smokie",
+  "internal": "BlackPuppy",
+  "dex": 149,
+  "variant": false,
+  "collab": false,
+  "power": 1760,
+  "priority": 176000,
+  "rarity": 2,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   30,
+   66
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 90,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 80,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "smokie-cryst",
+  "name": "Smokie Cryst",
+  "internal": "BlackPuppy_Ice",
+  "dex": 149,
+  "variant": true,
+  "collab": false,
+  "power": 1610,
+  "priority": 161000,
+  "rarity": 3,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   62,
+   64
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 90,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 80,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 3,
+  "work": {
+   "Gathering": 2,
+   "Cooling": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "omascul",
+  "name": "Omascul",
+  "internal": "MysteryMask",
+  "dex": 150,
+  "variant": false,
+  "collab": false,
+  "power": 1140,
+  "priority": 114000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   50,
+   66
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 70,
+   "run": 400,
+   "rideSprint": 520
+  },
+  "food": 5,
+  "work": {
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "whalaska",
+  "name": "Whalaska",
+  "internal": "IceNarwhal",
+  "dex": 151,
+  "variant": false,
+  "collab": false,
+  "power": 710,
+  "priority": 71000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 115,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 250,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 8,
+  "work": {
+   "Watering": 5,
+   "Cooling": 6
+  },
+  "gender": {
+   "male": 0.58,
+   "female": 0.42000002
+  }
+ },
+ {
+  "slug": "whalaska-ignis",
+  "name": "Whalaska Ignis",
+  "internal": "IceNarwhal_Fire",
+  "dex": 151,
+  "variant": true,
+  "collab": false,
+  "power": 370,
+  "priority": 37000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   58,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 120,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 250,
+   "run": 600,
+   "rideSprint": 750
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 5,
+   "Cooling": 6
+  },
+  "gender": {
+   "male": 0.42,
+   "female": 0.58000004
+  }
+ },
+ {
+  "slug": "verdash",
+  "name": "Verdash",
+  "internal": "GrassRabbitMan",
+  "dex": 152,
+  "variant": false,
+  "collab": false,
+  "power": 1160,
+  "priority": 116000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   35,
+   53
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 115,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 195,
+   "run": 500,
+   "rideSprint": 700
+  },
+  "food": 6,
+  "work": {
+   "Planting": 4,
+   "Handiwork": 5,
+   "Gathering": 5,
+   "Lumbering": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "splatterina",
+  "name": "Splatterina",
+  "internal": "GrimGirl",
+  "dex": 153,
+  "variant": false,
+  "collab": false,
+  "power": 780,
+  "priority": 78000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   52,
+   80
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 115,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 120,
+   "run": 550,
+   "rideSprint": 660
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 6,
+   "Lumbering": 3,
+   "Medicine Production": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.38,
+   "female": 0.62
+  }
+ },
+ {
+  "slug": "gildane",
+  "name": "Gildane",
+  "internal": "GoldenHorse",
+  "dex": 154,
+  "variant": false,
+  "collab": false,
+  "power": 730,
+  "priority": 73000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   53,
+   66
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 110,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 270,
+   "run": 840,
+   "rideSprint": 1260
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dogen",
+  "name": "Dogen",
+  "internal": "SifuDog",
+  "dex": 155,
+  "variant": false,
+  "collab": false,
+  "power": 1460,
+  "priority": 146000,
+  "rarity": 6,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   51,
+   56
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 75,
+   "run": 300,
+   "rideSprint": 550
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 4,
+   "Gathering": 3,
+   "Lumbering": 3,
+   "Medicine Production": 2,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "bulldosu",
+  "name": "Bulldosu",
+  "internal": "SumoDog",
+  "dex": 156,
+  "variant": false,
+  "collab": false,
+  "power": 1190,
+  "priority": 119000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   53,
+   56
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 95,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 120,
+   "run": 600,
+   "rideSprint": 810
+  },
+  "food": 6,
+  "work": {
+   "Mining": 4,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "celesdir",
+  "name": "Celesdir",
+  "internal": "WhiteDeer",
+  "dex": 157,
+  "variant": false,
+  "collab": false,
+  "power": 570,
+  "priority": 57000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   54,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 110,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 140,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 4,
+   "Lumbering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "celesdir-noct",
+  "name": "Celesdir Noct",
+  "internal": "WhiteDeer_Dark",
+  "dex": 157,
+  "variant": true,
+  "collab": false,
+  "power": 270,
+  "priority": 27000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   79,
+   79
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 115,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 140,
+   "run": 800,
+   "rideSprint": 1200
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 4,
+   "Lumbering": 8
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "astegon",
+  "name": "Astegon",
+  "internal": "BlackMetalDragon",
+  "dex": 158,
+  "variant": false,
+  "collab": false,
+  "power": 490,
+  "priority": 49000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": true,
+  "wildLevel": [
+   55,
+   80
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 125,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 150,
+   "run": 700,
+   "rideSprint": 1100
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 3,
+   "Mining": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "knocklem",
+  "name": "Knocklem",
+  "internal": "WingGolem",
+  "dex": 159,
+  "variant": false,
+  "collab": false,
+  "power": 260,
+  "priority": 26000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 110,
+   "defense": 135
+  },
+  "speed": {
+   "walk": 190,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 9,
+  "work": {
+   "Gathering": 4,
+   "Mining": 7,
+   "Transporting": 7
+  },
+  "gender": {
+   "male": 0.7,
+   "female": 0.3
+  }
+ },
+ {
+  "slug": "knocklem-ignis",
+  "name": "Knocklem Ignis",
+  "internal": "WingGolem_Fire",
+  "dex": 159,
+  "variant": true,
+  "collab": false,
+  "power": 210,
+  "priority": 21000,
+  "rarity": 10,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   73
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 115,
+   "defense": 135
+  },
+  "speed": {
+   "walk": 190,
+   "run": 550,
+   "rideSprint": 700
+  },
+  "food": 9,
+  "work": {
+   "Kindling": 5,
+   "Mining": 7,
+   "Transporting": 7
+  },
+  "gender": {
+   "male": 0.7,
+   "female": 0.3
+  }
+ },
+ {
+  "slug": "silvegis",
+  "name": "Silvegis",
+  "internal": "WhiteShieldDragon",
+  "dex": 160,
+  "variant": false,
+  "collab": false,
+  "power": 560,
+  "priority": 56000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   59,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 110,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 150,
+   "run": 700,
+   "rideSprint": 1050
+  },
+  "food": 8,
+  "work": {
+   "Lumbering": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "azurmane",
+  "name": "Azurmane",
+  "internal": "BlueThunderHorse",
+  "dex": 161,
+  "variant": false,
+  "collab": false,
+  "power": 420,
+  "priority": 42000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   57,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 120,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 180,
+   "run": 900,
+   "rideSprint": 1260
+  },
+  "food": 8,
+  "work": {
+   "Generating Electricity": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "valentail",
+  "name": "Valentail",
+  "internal": "LongCat",
+  "dex": 162,
+  "variant": false,
+  "collab": false,
+  "power": 1900,
+  "priority": 190000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 80,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 70,
+   "run": 700,
+   "rideSprint": 900
+  },
+  "food": 4,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "snock",
+  "name": "Snock",
+  "internal": "ElecSnail",
+  "dex": 163,
+  "variant": false,
+  "collab": false,
+  "power": 1780,
+  "priority": 178000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 70,
+   "defense": 75
+  },
+  "speed": {
+   "walk": 50,
+   "run": 360,
+   "rideSprint": 945
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "snock-terra",
+  "name": "Snock Terra",
+  "internal": "ElecSnail_Ground",
+  "dex": 163,
+  "variant": true,
+  "collab": false,
+  "power": 1500,
+  "priority": 150000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   74,
+   76
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 360,
+   "rideSprint": 945
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "souffline",
+  "name": "Souffline",
+  "internal": "DandelionGirl",
+  "dex": 164,
+  "variant": false,
+  "collab": false,
+  "power": 2000,
+  "priority": 200000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 100,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Planting": 2,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "lapiron",
+  "name": "Lapiron",
+  "internal": "BrownRabbit",
+  "dex": 165,
+  "variant": false,
+  "collab": false,
+  "power": 1680,
+  "priority": 168000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 480,
+   "rideSprint": 720
+  },
+  "food": 4,
+  "work": {
+   "Handiwork": 3,
+   "Gathering": 4,
+   "Mining": 2,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "hoodle",
+  "name": "Hoodle",
+  "internal": "HoodGhost",
+  "dex": 166,
+  "variant": false,
+  "collab": false,
+  "power": 1770,
+  "priority": 177000,
+  "rarity": 3,
+  "size": "XS",
+  "nocturnal": true,
+  "wildLevel": [
+   65,
+   69
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 85,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 100,
+   "run": 400,
+   "rideSprint": 550
+  },
+  "food": 3,
+  "work": {
+   "Handiwork": 1,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "slowatt",
+  "name": "Slowatt",
+  "internal": "ElecLizard",
+  "dex": 167,
+  "variant": false,
+  "collab": false,
+  "power": 1750,
+  "priority": 175000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   66
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 70
+  },
+  "speed": {
+   "walk": 110,
+   "run": 300,
+   "rideSprint": 390
+  },
+  "food": 4,
+  "work": {
+   "Generating Electricity": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "bakemi",
+  "name": "Bakemi",
+  "internal": "OniGhostGirl",
+  "dex": 168,
+  "variant": false,
+  "collab": false,
+  "power": 1540,
+  "priority": 154000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   65,
+   69
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 85,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 400,
+   "rideSprint": 600
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 3,
+   "Medicine Production": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "solmora",
+  "name": "Solmora",
+  "internal": "KingSunfish",
+  "dex": 169,
+  "variant": false,
+  "collab": false,
+  "power": 1370,
+  "priority": 137000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   66,
+   67
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 90,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 50,
+   "run": 500,
+   "rideSprint": 900
+  },
+  "food": 6,
+  "work": {
+   "Watering": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "solmora-lux",
+  "name": "Solmora Lux",
+  "internal": "KingSunfish_Thunder",
+  "dex": 169,
+  "variant": true,
+  "collab": false,
+  "power": 1000,
+  "priority": 100000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   76,
+   78
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 95,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 50,
+   "run": 500,
+   "rideSprint": 900
+  },
+  "food": 6,
+  "work": {
+   "Watering": 4,
+   "Generating Electricity": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "lapure",
+  "name": "Lapure",
+  "internal": "SleeveRabbit",
+  "dex": 170,
+  "variant": false,
+  "collab": false,
+  "power": 810,
+  "priority": 81000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   69
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 100,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 40,
+   "run": 600,
+   "rideSprint": 700
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 6,
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "eidrolon",
+  "name": "Eidrolon",
+  "internal": "GhostDragon",
+  "dex": 171,
+  "variant": false,
+  "collab": false,
+  "power": 300,
+  "priority": 30000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   65,
+   80
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 125,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1400,
+   "rideSprint": 2750
+  },
+  "food": 9,
+  "work": {
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "eidrolon-ignis",
+  "name": "Eidrolon Ignis",
+  "internal": "GhostDragon_Fire",
+  "dex": 171,
+  "variant": true,
+  "collab": false,
+  "power": 140,
+  "priority": 14000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 130,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1400,
+   "rideSprint": 2750
+  },
+  "food": 9,
+  "work": {
+   "Kindling": 6,
+   "Transporting": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dynamoff",
+  "name": "Dynamoff",
+  "internal": "ThunderFluffyBird",
+  "dex": 172,
+  "variant": false,
+  "collab": false,
+  "power": 1400,
+  "priority": 140000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 85,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 700,
+   "rideSprint": 1000
+  },
+  "food": 6,
+  "work": {
+   "Generating Electricity": 6,
+   "Gathering": 3,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "tropicaw",
+  "name": "Tropicaw",
+  "internal": "RedFlowerBird",
+  "dex": 173,
+  "variant": false,
+  "collab": false,
+  "power": 1350,
+  "priority": 135000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   63,
+   69
+  ],
+  "stats": {
+   "hp": 85,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 600
+  },
+  "food": 6,
+  "work": {
+   "Planting": 5,
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "flaracle",
+  "name": "Flaracle",
+  "internal": "FoxExorcist",
+  "dex": 174,
+  "variant": false,
+  "collab": false,
+  "power": 390,
+  "priority": 39000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   65,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 125,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 130,
+   "run": 500,
+   "rideSprint": 600
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 7,
+   "Handiwork": 6,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "ophydia",
+  "name": "Ophydia",
+  "internal": "LotusDragon",
+  "dex": 175,
+  "variant": false,
+  "collab": false,
+  "power": 230,
+  "priority": 23000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   69,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 115,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 175,
+   "run": 700,
+   "rideSprint": 1500
+  },
+  "food": 9,
+  "work": {
+   "Watering": 5,
+   "Planting": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dupin",
+  "name": "Dupin",
+  "internal": "ClownRabbit",
+  "dex": 176,
+  "variant": false,
+  "collab": false,
+  "power": 520,
+  "priority": 52000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   55,
+   74
+  ],
+  "stats": {
+   "hp": 100,
+   "attack": 110,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 500,
+   "rideSprint": 750
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 7,
+   "Handiwork": 5,
+   "Medicine Production": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "roujay",
+  "name": "Roujay",
+  "internal": "ThiefBird",
+  "dex": 177,
+  "variant": false,
+  "collab": false,
+  "power": 530,
+  "priority": 53000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   74,
+   78
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 115,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 170,
+   "run": 950,
+   "rideSprint": 1350
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 5,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "venusa",
+  "name": "Venusa",
+  "internal": "SnakeGirl",
+  "dex": 178,
+  "variant": false,
+  "collab": false,
+  "power": 970,
+  "priority": 97000,
+  "rarity": 5,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 85,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 100,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 6,
+  "work": {
+   "Handiwork": 6,
+   "Gathering": 6,
+   "Medicine Production": 5,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.4,
+   "female": 0.6
+  }
+ },
+ {
+  "slug": "mycora",
+  "name": "Mycora",
+  "internal": "MushroomLady",
+  "dex": 179,
+  "variant": false,
+  "collab": false,
+  "power": 760,
+  "priority": 76000,
+  "rarity": 6,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   78
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 95,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 600
+  },
+  "food": 7,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 4,
+   "Gathering": 4,
+   "Medicine Production": 6
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "loomen",
+  "name": "Loomen",
+  "internal": "LanternButler",
+  "dex": 180,
+  "variant": false,
+  "collab": false,
+  "power": 890,
+  "priority": 89000,
+  "rarity": 5,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   75,
+   77
+  ],
+  "stats": {
+   "hp": 90,
+   "attack": 100,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 7,
+  "work": {
+   "Kindling": 4,
+   "Handiwork": 4,
+   "Medicine Production": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "wistella",
+  "name": "Wistella",
+  "internal": "MoonChild",
+  "dex": 181,
+  "variant": false,
+  "collab": false,
+  "power": 1180,
+  "priority": 118000,
+  "rarity": 2,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   66,
+   78
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 90,
+   "defense": 60
+  },
+  "speed": {
+   "walk": 130,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 5,
+  "work": {
+   "Handiwork": 6,
+   "Medicine Production": 6,
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "solenne",
+  "name": "Solenne",
+  "internal": "MonochromeQueen",
+  "dex": 182,
+  "variant": false,
+  "collab": false,
+  "power": 280,
+  "priority": 28000,
+  "rarity": 7,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": [
+   76,
+   78
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 115,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 100,
+   "run": 450,
+   "rideSprint": 600
+  },
+  "food": 9,
+  "work": {
+   "Handiwork": 8,
+   "Gathering": 4,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "renjishi",
+  "name": "Renjishi",
+  "internal": "KabukiMan",
+  "dex": 183,
+  "variant": false,
+  "collab": false,
+  "power": 290,
+  "priority": 29000,
+  "rarity": 7,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   78,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 120,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 200,
+   "run": 400,
+   "rideSprint": 500
+  },
+  "food": 8,
+  "work": {
+   "Kindling": 8,
+   "Handiwork": 6,
+   "Gathering": 5,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "aegidron",
+  "name": "Aegidron",
+  "internal": "DomeArmorDragon",
+  "dex": 184,
+  "variant": false,
+  "collab": false,
+  "power": 30,
+  "priority": 3000,
+  "rarity": 8,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   79,
+   79
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 125,
+   "defense": 140
+  },
+  "speed": {
+   "walk": 230,
+   "run": 850,
+   "rideSprint": 1100
+  },
+  "food": 9,
+  "work": {
+   "Mining": 8
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "grizzbolt",
+  "name": "Grizzbolt",
+  "internal": "ElecPanda",
+  "dex": 185,
+  "variant": false,
+  "collab": false,
+  "power": 1020,
+  "priority": 102000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   30,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 105,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 140,
+   "run": 600,
+   "rideSprint": 1000
+  },
+  "food": 6,
+  "work": {
+   "Generating Electricity": 5,
+   "Handiwork": 4,
+   "Lumbering": 3,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "lyleen",
+  "name": "Lyleen",
+  "internal": "LilyQueen",
+  "dex": 186,
+  "variant": false,
+  "collab": false,
+  "power": 240,
+  "priority": 24000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   58,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 120,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 100,
+   "run": 450,
+   "rideSprint": 550
+  },
+  "food": 8,
+  "work": {
+   "Planting": 7,
+   "Handiwork": 5,
+   "Gathering": 6,
+   "Medicine Production": 5
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "lyleen-noct",
+  "name": "Lyleen Noct",
+  "internal": "LilyQueen_Dark",
+  "dex": 186,
+  "variant": true,
+  "collab": false,
+  "power": 220,
+  "priority": 22000,
+  "rarity": 10,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   49,
+   80
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 120,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 100,
+   "run": 450,
+   "rideSprint": 550
+  },
+  "food": 8,
+  "work": {
+   "Handiwork": 5,
+   "Gathering": 6,
+   "Medicine Production": 7
+  },
+  "gender": {
+   "male": 0.3,
+   "female": 0.7
+  }
+ },
+ {
+  "slug": "orserk",
+  "name": "Orserk",
+  "internal": "ThunderDragonMan",
+  "dex": 187,
+  "variant": false,
+  "collab": false,
+  "power": 120,
+  "priority": 12000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   74,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 130,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 185,
+   "run": 900,
+   "rideSprint": 1200
+  },
+  "food": 9,
+  "work": {
+   "Generating Electricity": 8,
+   "Handiwork": 3,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "faleris",
+  "name": "Faleris",
+  "internal": "Horus",
+  "dex": 188,
+  "variant": false,
+  "collab": false,
+  "power": 500,
+  "priority": 50000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   76,
+   80
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 110,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1000,
+   "rideSprint": 1400
+  },
+  "food": 9,
+  "work": {
+   "Kindling": 6,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "faleris-aqua",
+  "name": "Faleris Aqua",
+  "internal": "Horus_Water",
+  "dex": 188,
+  "variant": true,
+  "collab": false,
+  "power": 450,
+  "priority": 45000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   56,
+   80
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 110,
+   "defense": 115
+  },
+  "speed": {
+   "walk": 200,
+   "run": 1000,
+   "rideSprint": 1400
+  },
+  "food": 9,
+  "work": {
+   "Watering": 6,
+   "Transporting": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "shadowbeak",
+  "name": "Shadowbeak",
+  "internal": "BlackGriffon",
+  "dex": 189,
+  "variant": false,
+  "collab": false,
+  "power": 550,
+  "priority": 55000,
+  "rarity": 10,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   50,
+   80
+  ],
+  "stats": {
+   "hp": 120,
+   "attack": 120,
+   "defense": 140
+  },
+  "speed": {
+   "walk": 80,
+   "run": 850,
+   "rideSprint": 1200
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "selyne",
+  "name": "Selyne",
+  "internal": "MoonQueen",
+  "dex": 190,
+  "variant": false,
+  "collab": false,
+  "power": 360,
+  "priority": 36000,
+  "rarity": 9,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   76,
+   80
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 115,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 150,
+   "run": 1000,
+   "rideSprint": 1600
+  },
+  "food": 9,
+  "work": {
+   "Handiwork": 7,
+   "Medicine Production": 6,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.2,
+   "female": 0.8
+  }
+ },
+ {
+  "slug": "bastigor",
+  "name": "Bastigor",
+  "internal": "SnowTigerBeastman",
+  "dex": 191,
+  "variant": false,
+  "collab": false,
+  "power": 50,
+  "priority": 5000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   75,
+   80
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 130,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 225,
+   "run": 750,
+   "rideSprint": 1100
+  },
+  "food": 9,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 5,
+   "Cooling": 8
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "shaolong",
+  "name": "Shaolong",
+  "internal": "BlueSkyDragon",
+  "dex": 192,
+  "variant": false,
+  "collab": false,
+  "power": 40,
+  "priority": 4000,
+  "rarity": 9,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   76,
+   78
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 135,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 300,
+   "run": 1400,
+   "rideSprint": 2800
+  },
+  "food": 9,
+  "work": {
+   "Watering": 8,
+   "Gathering": 5
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "silvance",
+  "name": "Silvance",
+  "internal": "Mothman",
+  "dex": 193,
+  "variant": false,
+  "collab": false,
+  "power": 80,
+  "priority": 8000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 140,
+   "attack": 120,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 120,
+   "run": 500,
+   "rideSprint": 750
+  },
+  "food": 9,
+  "work": {
+   "Planting": 6,
+   "Handiwork": 6,
+   "Gathering": 4,
+   "Medicine Production": 8,
+   "Transporting": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "dandilord",
+  "name": "Dandilord",
+  "internal": "FlowerPrince",
+  "dex": 194,
+  "variant": false,
+  "collab": false,
+  "power": 60,
+  "priority": 6000,
+  "rarity": 8,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": null,
+  "stats": {
+   "hp": 125,
+   "attack": 135,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 160,
+   "run": 1000,
+   "rideSprint": 1000
+  },
+  "food": 9,
+  "work": {
+   "Planting": 8,
+   "Handiwork": 6,
+   "Gathering": 5,
+   "Medicine Production": 6,
+   "Transporting": 3
+  },
+  "gender": {
+   "male": 0.6,
+   "female": 0.39999998
+  }
+ },
+ {
+  "slug": "bellanoir",
+  "name": "Bellanoir",
+  "internal": "NightLady",
+  "dex": 195,
+  "variant": false,
+  "collab": false,
+  "power": 620,
+  "priority": 62000,
+  "rarity": 20,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": null,
+  "stats": {
+   "hp": 120,
+   "attack": 150,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 5,
+   "Medicine Production": 5,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.1,
+   "female": 0.9
+  }
+ },
+ {
+  "slug": "bellanoir-libero",
+  "name": "Bellanoir Libero",
+  "internal": "NightLady_Dark",
+  "dex": 195,
+  "variant": true,
+  "collab": false,
+  "power": 130,
+  "priority": 13000,
+  "rarity": 20,
+  "size": "M",
+  "nocturnal": true,
+  "wildLevel": null,
+  "stats": {
+   "hp": 120,
+   "attack": 150,
+   "defense": 100
+  },
+  "speed": {
+   "walk": 150,
+   "run": 600,
+   "rideSprint": 800
+  },
+  "food": 7,
+  "work": {
+   "Handiwork": 6,
+   "Medicine Production": 7,
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.1,
+   "female": 0.9
+  }
+ },
+ {
+  "slug": "xenolord",
+  "name": "Xenolord",
+  "internal": "DarkMechaDragon",
+  "dex": 196,
+  "variant": false,
+  "collab": false,
+  "power": 400,
+  "priority": 40000,
+  "rarity": 8,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": null,
+  "stats": {
+   "hp": 130,
+   "attack": 120,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 200,
+   "run": 550,
+   "rideSprint": 660
+  },
+  "food": 8,
+  "work": {
+   "Gathering": 2
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "hartalis",
+  "name": "Hartalis",
+  "internal": "LegendDeer",
+  "dex": 197,
+  "variant": false,
+  "collab": false,
+  "power": 90,
+  "priority": 9000,
+  "rarity": 10,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 135,
+   "attack": 130,
+   "defense": 110
+  },
+  "speed": {
+   "walk": 150,
+   "run": 900,
+   "rideSprint": 1900
+  },
+  "food": 9,
+  "work": {
+   "Gathering": 7,
+   "Lumbering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "paladius",
+  "name": "Paladius",
+  "internal": "SaintCentaur",
+  "dex": 198,
+  "variant": false,
+  "collab": false,
+  "power": 180,
+  "priority": 18000,
+  "rarity": 20,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   60,
+   60
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 120,
+   "defense": 145
+  },
+  "speed": {
+   "walk": 100,
+   "run": 800,
+   "rideSprint": 1800
+  },
+  "food": 9,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "necromus",
+  "name": "Necromus",
+  "internal": "BlackCentaur",
+  "dex": 199,
+  "variant": false,
+  "collab": false,
+  "power": 190,
+  "priority": 19000,
+  "rarity": 20,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   60,
+   60
+  ],
+  "stats": {
+   "hp": 130,
+   "attack": 145,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 350,
+   "run": 1300,
+   "rideSprint": 1900
+  },
+  "food": 9,
+  "work": {
+   "Lumbering": 6,
+   "Mining": 6
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "frostallion",
+  "name": "Frostallion",
+  "internal": "IceHorse",
+  "dex": 200,
+  "variant": false,
+  "collab": false,
+  "power": 150,
+  "priority": 15000,
+  "rarity": 20,
+  "size": "L",
+  "nocturnal": false,
+  "wildLevel": [
+   60,
+   60
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 140,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 120,
+   "run": 1200,
+   "rideSprint": 1800
+  },
+  "food": 9,
+  "work": {
+   "Cooling": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "frostallion-noct",
+  "name": "Frostallion Noct",
+  "internal": "IceHorse_Dark",
+  "dex": 200,
+  "variant": true,
+  "collab": false,
+  "power": 110,
+  "priority": 11000,
+  "rarity": 20,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   65,
+   65
+  ],
+  "stats": {
+   "hp": 140,
+   "attack": 140,
+   "defense": 135
+  },
+  "speed": {
+   "walk": 120,
+   "run": 1200,
+   "rideSprint": 1800
+  },
+  "food": 9,
+  "work": {
+   "Gathering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "neptilius",
+  "name": "Neptilius",
+  "internal": "PoseidonOrca",
+  "dex": 201,
+  "variant": false,
+  "collab": false,
+  "power": 160,
+  "priority": 16000,
+  "rarity": 20,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   60,
+   60
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 145,
+   "defense": 125
+  },
+  "speed": {
+   "walk": 300,
+   "run": 750,
+   "rideSprint": 1120
+  },
+  "food": 9,
+  "work": {
+   "Watering": 7
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "jetragon",
+  "name": "Jetragon",
+  "internal": "JetDragon",
+  "dex": 202,
+  "variant": false,
+  "collab": false,
+  "power": 70,
+  "priority": 7000,
+  "rarity": 20,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": [
+   60,
+   70
+  ],
+  "stats": {
+   "hp": 115,
+   "attack": 140,
+   "defense": 120
+  },
+  "speed": {
+   "walk": 800,
+   "run": 1700,
+   "rideSprint": 3300
+  },
+  "food": 9,
+  "work": {
+   "Gathering": 8
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "panthalus",
+  "name": "Panthalus",
+  "internal": "KingWhale",
+  "dex": 203,
+  "variant": false,
+  "collab": false,
+  "power": 20,
+  "priority": 2000,
+  "rarity": 10,
+  "size": "XL",
+  "nocturnal": false,
+  "wildLevel": null,
+  "stats": {
+   "hp": 180,
+   "attack": 120,
+   "defense": 200
+  },
+  "speed": {
+   "walk": 3000,
+   "run": 3000,
+   "rideSprint": 3000
+  },
+  "food": 9,
+  "work": {},
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "eye-of-cthulhu",
+  "name": "Eye of Cthulhu",
+  "internal": "YakushimaBoss001",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 6,
+  "size": "L",
+  "nocturnal": true,
+  "wildLevel": [
+   45,
+   45
+  ],
+  "stats": {
+   "hp": 110,
+   "attack": 105,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 450,
+   "run": 900,
+   "rideSprint": 1200
+  },
+  "food": 2,
+  "work": {
+   "Transporting": 4
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "demon-eye",
+  "name": "Demon Eye",
+  "internal": "YakushimaBoss001_Small",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   33,
+   35
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 110,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 150,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "green-slime",
+  "name": "Green Slime",
+  "internal": "YakushimaMonster001",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   33,
+   35
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "blue-slime",
+  "name": "Blue Slime",
+  "internal": "YakushimaMonster001_Blue",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   33,
+   35
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "illuminant-slime",
+  "name": "Illuminant Slime",
+  "internal": "YakushimaMonster001_Pink",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   44
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 75,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "purple-slime",
+  "name": "Purple Slime",
+  "internal": "YakushimaMonster001_Purple",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": true,
+  "wildLevel": [
+   36,
+   41
+  ],
+  "stats": {
+   "hp": 75,
+   "attack": 70,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "rainbow-slime",
+  "name": "Rainbow Slime",
+  "internal": "YakushimaMonster001_Rainbow",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 4,
+  "size": "M",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   44
+  ],
+  "stats": {
+   "hp": 105,
+   "attack": 95,
+   "defense": 105
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "red-slime",
+  "name": "Red Slime",
+  "internal": "YakushimaMonster001_Red",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   36,
+   41
+  ],
+  "stats": {
+   "hp": 70,
+   "attack": 75,
+   "defense": 85
+  },
+  "speed": {
+   "walk": 50,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 3,
+  "work": {
+   "Transporting": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "enchanted-sword",
+  "name": "Enchanted Sword",
+  "internal": "YakushimaMonster002",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   44
+  ],
+  "stats": {
+   "hp": 95,
+   "attack": 105,
+   "defense": 90
+  },
+  "speed": {
+   "walk": 300,
+   "run": 600,
+   "rideSprint": 900
+  },
+  "food": 2,
+  "work": {
+   "Lumbering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "cave-bat",
+  "name": "Cave Bat",
+  "internal": "YakushimaMonster003",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 3,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   36,
+   41
+  ],
+  "stats": {
+   "hp": 65,
+   "attack": 75,
+   "defense": 80
+  },
+  "speed": {
+   "walk": 150,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ },
+ {
+  "slug": "illuminant-bat",
+  "name": "Illuminant Bat",
+  "internal": "YakushimaMonster003_Purple",
+  "dex": null,
+  "variant": false,
+  "collab": true,
+  "power": 3100,
+  "priority": 310000,
+  "rarity": 4,
+  "size": "S",
+  "nocturnal": false,
+  "wildLevel": [
+   42,
+   44
+  ],
+  "stats": {
+   "hp": 80,
+   "attack": 80,
+   "defense": 95
+  },
+  "speed": {
+   "walk": 150,
+   "run": 300,
+   "rideSprint": 450
+  },
+  "food": 2,
+  "work": {
+   "Gathering": 1
+  },
+  "gender": {
+   "male": 0.5,
+   "female": 0.5
+  }
+ }
+]
