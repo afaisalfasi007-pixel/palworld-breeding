@@ -42,6 +42,9 @@ jobs:
         if: env.CLOUDFLARE_API_TOKEN != ''
         with:
           node-version: 22
+      - name: Create the Pages project if it doesn't exist yet
+        if: env.CLOUDFLARE_API_TOKEN != ''
+        run: npx --yes wrangler@4 pages project create palworld-breeding --production-branch=main || echo "Project already exists."
       - name: Deploy to Cloudflare Pages
         if: env.CLOUDFLARE_API_TOKEN != ''
         run: npx --yes wrangler@4 pages deploy dist --project-name=palworld-breeding --branch=main --commit-dirty=true
