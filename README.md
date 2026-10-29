@@ -44,6 +44,16 @@ npm run smoke    # phone-size browser test (needs Playwright: npm i -D playwrigh
 
 Every push to `main` now redeploys automatically. If a test fails, Cloudflare stops and the old version stays live.
 
+### Automatic deploys from GitHub Actions (works without connecting GitHub in Cloudflare)
+
+The `Check and deploy` workflow builds and tests the site, then uploads it to the Cloudflare Pages project `palworld-breeding` whenever `main` changes. It needs one secret:
+
+1. Cloudflare: **My Profile → API Tokens → Create Token → Create Custom Token**. Permission: **Account → Cloudflare Pages → Edit**. Create it and copy the token (it's shown once).
+2. GitHub: this repository → **Settings → Secrets and variables → Actions → New repository secret**. Name `CLOUDFLARE_API_TOKEN`, paste the token, save.
+3. GitHub: **Actions → Check and deploy → Run workflow** (or push any change).
+
+Without the secret the deploy step is skipped and only the checks run.
+
 ### Alternative: Cloudflare Workers (static assets)
 
 If the Pages GitHub connection doesn't work, the same site can be served by Workers using `wrangler.jsonc` (static files only, no Worker code, so requests aren't billed):
