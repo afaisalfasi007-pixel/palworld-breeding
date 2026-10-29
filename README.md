@@ -44,6 +44,14 @@ npm run smoke    # phone-size browser test (needs Playwright: npm i -D playwrigh
 
 Every push to `main` now redeploys automatically. If a test fails, Cloudflare stops and the old version stays live.
 
+### Alternative: Cloudflare Workers (static assets)
+
+If the Pages GitHub connection doesn't work, the same site can be served by Workers using `wrangler.jsonc` (static files only, no Worker code, so requests aren't billed):
+
+1. **Workers & Pages → Create application → Connect GitHub**, pick this repository.
+2. Build command: `npm run check`. Deploy command: `npx wrangler deploy`. Add the variable `NODE_VERSION` = `22`.
+3. The site appears at `https://palworld-breeding.<your-subdomain>.workers.dev`. Set `SITE_URL` to that address and redeploy.
+
 ### Optional settings (Cloudflare environment variables)
 
 | Variable | What it does |

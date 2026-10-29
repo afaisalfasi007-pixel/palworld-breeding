@@ -1,0 +1,10 @@
+// Cloudflare Workers settings for serving the built site as static files.
+// Only static assets: no Worker code runs, so there are no request costs.
+{
+  "name": "palworld-breeding",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
