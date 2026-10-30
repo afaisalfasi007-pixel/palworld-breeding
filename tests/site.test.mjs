@@ -16,6 +16,7 @@ function htmlFiles(dir) {
 }
 const pathOf = (file) => '/' + relative(dist, file).replace(/index\.html$/, '');
 const pages = built ? htmlFiles(dist).map((f) => ({ file: f, path: pathOf(f), html: readFileSync(f, 'utf8') })) : [];
+const base = new URL(config.url).pathname.replace(/\/$/, '');
 const get = (html, re) => (html.match(re) || [])[1];
 
 test('site was built', { skip: !built && 'run npm run build first' }, () => {
@@ -50,7 +51,11 @@ test('internal links point to pages that exist', { skip: !built }, () => {
   const existing = new Set(pages.map((p) => p.path));
   for (const p of pages) {
     for (const [, href] of p.html.matchAll(/href="(\/[^"]*)"/g)) {
-      const path = href.split(/[?#]/)[0];
+      let path = href.split(/[?#]/)[0];
+      if (base) {
+        assert.ok(path.startsWith(base + '/'), `${p.path} link ${href} is missing the base path`);
+        path = path.slice(base.length);
+      }
       if (path.startsWith('/assets/') || /\.(svg|xml|txt)$/.test(path)) {
         assert.ok(existsSync(join(dist, path)), `${p.path} → ${href}`);
       } else {

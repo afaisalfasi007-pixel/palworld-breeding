@@ -48,3 +48,30 @@ jobs:
       - name: Deploy to Cloudflare Pages
         if: env.CLOUDFLARE_API_TOKEN != ''
         run: npx --yes wrangler@4 pages deploy dist --project-name=palworld-breeding --branch=main --commit-dirty=true
+
+  # Publishes the site on GitHub Pages (free for public repositories) at
+  # https://afaisalfasi007-pixel.github.io/palworld-breeding/. Needs
+  # Settings → Pages → Source: "GitHub Actions" (see README).
+  github-pages:
+    needs: check
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && !github.event.repository.private
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      SITE_URL: https://afaisalfasi007-pixel.github.io/palworld-breeding
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm run check
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+      - id: deployment
+        uses: actions/deploy-pages@v4

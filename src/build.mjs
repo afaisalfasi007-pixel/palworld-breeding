@@ -24,6 +24,11 @@ const counts = recipeCounts(data);
 rmSync(dist, { recursive: true, force: true });
 mkdirSync(join(dist, 'assets'), { recursive: true });
 
+// When the site lives in a sub-folder (e.g. GitHub Pages: user.github.io/repo),
+// every root-relative link gets that folder in front of it.
+const base = new URL(config.url).pathname.replace(/\/$/, '');
+const withBase = (text) => (base ? text.replace(/(href|src)="\/(?!\/)/g, `$1="${base}/`) : text);
+
 const hash = (s) => createHash('sha256').update(s).digest('hex').slice(0, 10);
 const css = readFileSync(join(root, 'src/assets/style.css'), 'utf8');
 const lib = readFileSync(join(root, 'src/lib/breeding.mjs'), 'utf8');
@@ -36,7 +41,8 @@ const dataVersion = hash(clientData);
 const libVersion = hash(lib);
 const app = readFileSync(join(root, 'src/assets/app.js'), 'utf8')
   .replace("'./breeding.js'", `'./breeding.js?v=${libVersion}'`)
-  .replace('__DATA_URL__', `/assets/data.json?v=${dataVersion}`);
+  .replace('__DATA_URL__', `${base}/assets/data.json?v=${dataVersion}`)
+  .replace("const BASE = '';", `const BASE = '${base}';`);
 
 writeFileSync(join(dist, 'assets/style.css'), css);
 writeFileSync(join(dist, 'assets/breeding.js'), lib);
@@ -45,7 +51,7 @@ writeFileSync(join(dist, 'assets/data.json'), clientData);
 copyFileSync(join(root, 'src/assets/favicon.svg'), join(dist, 'favicon.svg'));
 copyFileSync(join(root, 'src/assets/_headers'), join(dist, '_headers'));
 
-const assets = { css: `/assets/style.css?v=${hash(css)}`, js: `/assets/app.js?v=${hash(app)}` };
+const assets = { css: `/assets/style.css?v=${hash(css)}`, js: `/assets/app.js?v=${hash(app)}` }; // base added by withBase
 
 // ---------- page writing ----------
 
@@ -53,7 +59,7 @@ const pages = [];
 function writePage(page) {
   const file = page.path === '/404' ? join(dist, '404.html') : join(dist, page.path, 'index.html');
   mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, layout({ ...page, meta }, assets));
+  writeFileSync(file, withBase(layout({ ...page, meta }, assets)));
   if (!page.noindex && page.path !== '/404') pages.push(page.path);
 }
 

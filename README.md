@@ -44,6 +44,16 @@ npm run smoke    # phone-size browser test (needs Playwright: npm i -D playwrigh
 
 Every push to `main` now redeploys automatically. If a test fails, Cloudflare stops and the old version stays live.
 
+### Free hosting on GitHub Pages (no Cloudflare needed)
+
+GitHub Pages is free for public repositories. The site has no secrets, so the repository can be public.
+
+1. **Settings → General → Danger Zone → Change visibility → Make public.**
+2. **Settings → Pages → Build and deployment → Source: GitHub Actions.**
+3. **Actions → Check and deploy → Run workflow.**
+
+The site appears at `https://afaisalfasi007-pixel.github.io/palworld-breeding/`. The build adds the `/palworld-breeding` folder to every link automatically because `SITE_URL` includes it.
+
 ### Automatic deploys from GitHub Actions (works without connecting GitHub in Cloudflare)
 
 The `Check and deploy` workflow builds and tests the site, then uploads it to the Cloudflare Pages project `palworld-breeding` whenever `main` changes. It needs one secret:

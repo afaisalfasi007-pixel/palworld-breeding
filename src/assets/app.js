@@ -4,6 +4,7 @@
 import { childOf, parentsOf, planRoute } from './breeding.js';
 
 const DATA_URL = '__DATA_URL__';
+const BASE = ''; // site sub-folder, filled in at build time
 const OWNED_KEY = 'eggpair.owned.v1';
 const page = document.body.dataset.page;
 
@@ -37,7 +38,7 @@ function avatar(p, size = '') {
   const initials = p.name.replace(/\(.*\)/, '').trim().split(/\s+/).map((w) => w[0]).join('').slice(0, 2);
   return `<span class="av ${size}" style="--h:${h}" aria-hidden="true">${esc(initials)}</span>`;
 }
-const palUrl = (p) => `/pals/${p.slug}/`;
+const palUrl = (p) => `${BASE}/pals/${p.slug}/`;
 const palLink = (p) => `<a class="pal" href="${palUrl(p)}">${avatar(p)}<span>${esc(p.name)}</span></a>`;
 const icon = (name) => `<svg class="i" aria-hidden="true" focusable="false"><use href="#i-${name}"/></svg>`;
 const sexTag = (g) => (g ? `<span class="sex sex-${g}">${GENDER[g]}</span>` : '');
@@ -221,9 +222,9 @@ function initFind(data) {
     const t = pals[target];
     let msg = `<div class="result-head"><span class="count-badge">${total.toLocaleString('en-US')}</span><span>${total === 1 ? 'pair hatches' : 'pairs hatch'}</span>${palLink(t)}</div>`;
     if (total === 0) msg = emptyState('egg', `${esc(t.name)} only hatches from two ${esc(t.name)} (one male, one female). Catch them in the wild first.`);
-    if (onlyOwned.checked && owned.size === 0) msg += `<p class="note">${icon('info')}<span>You haven't marked any Pals yet. Add them on <a href="/my-pals/">My Pals</a>.</span></p>`;
+    if (onlyOwned.checked && owned.size === 0) msg += `<p class="note">${icon('info')}<span>You haven't marked any Pals yet. Add them on <a href="${BASE}/my-pals/">My Pals</a>.</span></p>`;
     else if ((onlyOwned.checked || q) && total) msg += `<p class="muted">${pairs.length.toLocaleString('en-US')} match your filters.</p>`;
-    if ((onlyOwned.checked || q) && total && !pairs.length) msg += emptyState('route', `No pair matches. Try the <a href="/planner/?t=${t.slug}">route planner</a> instead.`);
+    if ((onlyOwned.checked || q) && total && !pairs.length) msg += emptyState('route', `No pair matches. Try the <a href="${BASE}/planner/?t=${t.slug}">route planner</a> instead.`);
     const items = pairs.slice(0, shown).map((o) => pairItem(`${palLink(pals[o.a])}${sexTag(o.ga)}`, 'plus', `${palLink(pals[o.b])}${sexTag(o.gb)}`)).join('');
     out.innerHTML = msg + (pairs.length ? `<ul class="pairs">${items}</ul>` : '') +
       (pairs.length > shown ? `<p class="btn-row"><button type="button" class="btn ghost" id="more">Show more (${(pairs.length - shown).toLocaleString('en-US')} left)</button></p>` : '');
@@ -250,14 +251,14 @@ function initPlanner(data) {
     const owned = loadOwned();
     const ownedIdx = pals.map((p, i) => (owned.has(p.slug) ? i : -1)).filter((i) => i >= 0);
     summary.innerHTML = ownedIdx.length
-      ? `${icon('check')}<span>Planning from <b>${ownedIdx.length}</b> Pals you own.</span> <a href="/my-pals/">Edit My Pals</a>`
-      : `${icon('info')}<span>You haven't marked any Pals yet.</span> <a href="/my-pals/">Add the Pals you own</a>`;
+      ? `${icon('check')}<span>Planning from <b>${ownedIdx.length}</b> Pals you own.</span> <a href="${BASE}/my-pals/">Edit My Pals</a>`
+      : `${icon('info')}<span>You haven't marked any Pals yet.</span> <a href="${BASE}/my-pals/">Add the Pals you own</a>`;
     if (target == null) {
       out.innerHTML = emptyState('route', 'Choose a target Pal.');
       return;
     }
     if (!ownedIdx.length) {
-      out.innerHTML = emptyState('check', 'Tick the Pals you own on <a href="/my-pals/">My Pals</a>, then come back.');
+      out.innerHTML = emptyState('check', `Tick the Pals you own on <a href="${BASE}/my-pals/">My Pals</a>, then come back.`);
       return;
     }
     const t = pals[target];

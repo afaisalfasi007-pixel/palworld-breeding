@@ -3,12 +3,13 @@
 import { createRequire } from 'node:module';
 import { mkdirSync } from 'node:fs';
 import { start } from './serve.mjs';
+import config from '../site.config.mjs';
 
 // require() also finds a globally installed Playwright, which import does not.
 const { chromium } = createRequire(import.meta.url)('playwright');
 
 const port = 4399;
-const base = `http://localhost:${port}`;
+const base = `http://localhost:${port}${new URL(config.url).pathname.replace(/\/$/, '')}`;
 const shots = process.env.SHOTS_DIR || 'screenshots';
 mkdirSync(shots, { recursive: true });
 

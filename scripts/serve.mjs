@@ -2,14 +2,18 @@
 import { createServer } from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
 import { extname, join, normalize } from 'node:path';
+import config from '../site.config.mjs';
 
 const root = join(import.meta.dirname, '..', 'dist');
 const port = Number(process.env.PORT || 4321);
+// Serve dist/ under the same sub-folder the site is built for (if any).
+const base = new URL(config.url).pathname.replace(/\/$/, '');
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.svg': 'image/svg+xml', '.xml': 'application/xml', '.txt': 'text/plain' };
 
 export function start(p = port) {
   const server = createServer(async (req, res) => {
-    const path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^(\.\.[/\\])+/, '');
+    let path = normalize(decodeURIComponent(new URL(req.url, 'http://x').pathname)).replace(/^(\.\.[/\\])+/, '');
+    if (base && path.startsWith(base)) path = path.slice(base.length) || '/';
     let file = join(root, path);
     try {
       if ((await stat(file)).isDirectory()) file = join(file, 'index.html');
